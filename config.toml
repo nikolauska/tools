@@ -101,19 +101,6 @@ stripe-mock = "github:stripe/stripe-mock"
 tasks-axi = "npm:tasks-axi"
 treehouse = "github:kunchenguid/treehouse"
 
-# Host libraries and OS-level tools remain managed by pacman.
-[bootstrap.packages]
-"pacman:git" = { version = "latest", os = "linux" }
-"pacman:glibc" = { version = "latest", os = "linux" }
-"pacman:gcc-libs" = { version = "latest", os = "linux" }
-"pacman:openssl" = { version = "latest", os = "linux" }
-"pacman:bash" = { version = "latest", os = "linux" }
-
-# Native dependencies used by GitHub Copilot.
-"pacman:glib2" = { version = "latest", os = "linux" }
-"pacman:libsecret" = { version = "latest", os = "linux" }
-"pacman:dbus" = { version = "latest", os = "linux" }
-
 # codebase-memory-mcp has no public foreground daemon command yet. Its internal
 # permanent-daemon mode keeps the process attached to the service manager;
 # replace these flags when upstream exposes a supported equivalent.
@@ -129,13 +116,12 @@ description = "Upgrade all mise-managed tools and refresh the lockfile"
 run = ["mise upgrade", "mise lock --global"]
 
 [tasks.status]
-description = "Show tool and host-package status"
-run = ["mise current", "mise outdated", "mise bootstrap packages status"]
+description = "Show mise-managed tool status"
+run = ["mise current", "mise outdated"]
 
 [tasks.bootstrap]
-description = "Bootstrap host packages and install tools"
+description = "Install tools and apply services"
 run = [
-  "mise bootstrap packages apply",
   "mise install",
   "mise lock --global",
   "mise bootstrap services apply --yes",
