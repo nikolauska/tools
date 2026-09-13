@@ -409,6 +409,56 @@ url = "https://github.com/getsentry/cli/releases/download/0.45.0/sentry-windows-
 url_api = "https://api.github.com/repos/getsentry/cli/releases/assets/555341968"
 provenance = "github-attestations"
 
+[[tools."github:herdrdev/herdr"]]
+version = "0.9.0"
+backend = "github:herdrdev/herdr"
+specifiers = ["latest"]
+
+[tools."github:herdrdev/herdr".options]
+matching = "herdr-"
+
+[tools."github:herdrdev/herdr"."platforms.linux-arm64"]
+checksum = "sha256:9c8db20fb7e7427b138d5367113f1621ffd319f2f65d6f009e2594029115f0d2"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270160"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.linux-arm64-musl"]
+checksum = "sha256:9c8db20fb7e7427b138d5367113f1621ffd319f2f65d6f009e2594029115f0d2"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270160"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.linux-x64"]
+checksum = "sha256:4fa1a01158dd8043da92d31b270780b0dcc10603038d9b61cac4d81ab63fb71f"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270163"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.linux-x64-musl"]
+checksum = "sha256:4fa1a01158dd8043da92d31b270780b0dcc10603038d9b61cac4d81ab63fb71f"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270163"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.macos-arm64"]
+checksum = "sha256:32b53df09872628059c789a69f02a6b8e29e14ddf26711421f3463f70c1aef17"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-macos-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270162"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.macos-x64"]
+checksum = "sha256:d0c920b2a126a74809fa1491411c9a097a44786cac9c2ca51b818a995581cf16"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-macos-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270161"
+provenance = "github-attestations"
+
+[tools."github:herdrdev/herdr"."platforms.windows-x64"]
+checksum = "sha256:b4508c445de1c1a68c760a01735da2aba2fa214b2aafd4b07f732e49b2a64b11"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-windows-x86_64.zip"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270164"
+provenance = "github-attestations"
+
 [[tools."github:kunchenguid/no-mistakes"]]
 version = "1.75.1"
 backend = "github:kunchenguid/no-mistakes"
@@ -581,57 +631,6 @@ checksum = "sha256:3a4e4f32f4438518053628c50f790d61f85f52a5bc51b3422ccede45cdf28
 url = "https://github.com/nikolauska/glab-axi/releases/download/v0.1.0/glab-axi-windows-amd64.exe"
 url_api = "https://api.github.com/repos/nikolauska/glab-axi/releases/assets/465187350"
 
-[[tools."github:ogulcancelik/herdr"]]
-version = "0.9.0"
-backend = "github:ogulcancelik/herdr"
-specifiers = ["latest"]
-
-[tools."github:ogulcancelik/herdr".options]
-matching = "herdr-"
-
-[tools."github:ogulcancelik/herdr"."platforms.linux-arm64"]
-checksum = "sha256:9c8db20fb7e7427b138d5367113f1621ffd319f2f65d6f009e2594029115f0d2"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-aarch64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270160"
-provenance = "github-attestations"
-
-[tools."github:ogulcancelik/herdr"."platforms.linux-arm64-musl"]
-checksum = "sha256:9c8db20fb7e7427b138d5367113f1621ffd319f2f65d6f009e2594029115f0d2"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-aarch64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270160"
-provenance = "github-attestations"
-
-[tools."github:ogulcancelik/herdr"."platforms.linux-x64"]
-checksum = "sha256:4fa1a01158dd8043da92d31b270780b0dcc10603038d9b61cac4d81ab63fb71f"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-x86_64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270163"
-provenance = "github-attestations"
-provenance_verified = true
-
-[tools."github:ogulcancelik/herdr"."platforms.linux-x64-musl"]
-checksum = "sha256:4fa1a01158dd8043da92d31b270780b0dcc10603038d9b61cac4d81ab63fb71f"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-linux-x86_64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270163"
-provenance = "github-attestations"
-
-[tools."github:ogulcancelik/herdr"."platforms.macos-arm64"]
-checksum = "sha256:32b53df09872628059c789a69f02a6b8e29e14ddf26711421f3463f70c1aef17"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-macos-aarch64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270162"
-provenance = "github-attestations"
-
-[tools."github:ogulcancelik/herdr"."platforms.macos-x64"]
-checksum = "sha256:d0c920b2a126a74809fa1491411c9a097a44786cac9c2ca51b818a995581cf16"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-macos-x86_64"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270161"
-provenance = "github-attestations"
-
-[tools."github:ogulcancelik/herdr"."platforms.windows-x64"]
-checksum = "sha256:b4508c445de1c1a68c760a01735da2aba2fa214b2aafd4b07f732e49b2a64b11"
-url = "https://github.com/herdrdev/herdr/releases/download/v0.9.0/herdr-windows-x86_64.zip"
-url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270164"
-provenance = "github-attestations"
-
 [[tools."github:remoteoss/dexter"]]
 version = "0.7.2"
 backend = "github:remoteoss/dexter"
@@ -707,49 +706,6 @@ url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/53140
 checksum = "sha256:48000e369b08e02a4ec64812d64868492c774c8873ed0788708d7bf55fbf7a44"
 url = "https://github.com/stripe/stripe-mock/releases/download/v0.203.0/stripe-mock_0.203.0_windows_amd64.zip"
 url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/531406674"
-
-[[tools."github:tursodatabase/agentfs"]]
-version = "0.6.4"
-backend = "github:tursodatabase/agentfs"
-specifiers = ["latest"]
-
-[tools."github:tursodatabase/agentfs".options]
-matching = "agentfs"
-
-[tools."github:tursodatabase/agentfs"."platforms.linux-arm64"]
-checksum = "sha256:2652fd39384ea301b101456989785c2ef009a74de02cbf7648d14cec5431a662"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-aarch64-unknown-linux-gnu.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075515"
-
-[tools."github:tursodatabase/agentfs"."platforms.linux-arm64-musl"]
-checksum = "sha256:2652fd39384ea301b101456989785c2ef009a74de02cbf7648d14cec5431a662"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-aarch64-unknown-linux-gnu.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075515"
-
-[tools."github:tursodatabase/agentfs"."platforms.linux-x64"]
-checksum = "sha256:ba314bd58262ca355e16afc3ecf405cfd934995b15af231d32a0426b72d74700"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-x86_64-unknown-linux-gnu.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075536"
-
-[tools."github:tursodatabase/agentfs"."platforms.linux-x64-musl"]
-checksum = "sha256:ba314bd58262ca355e16afc3ecf405cfd934995b15af231d32a0426b72d74700"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-x86_64-unknown-linux-gnu.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075536"
-
-[tools."github:tursodatabase/agentfs"."platforms.macos-arm64"]
-checksum = "sha256:d07772d7c96f16c0d8996c15502f189d449ab0d9460fc2fe68f6edbae91bae73"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-aarch64-apple-darwin.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075513"
-
-[tools."github:tursodatabase/agentfs"."platforms.macos-x64"]
-checksum = "sha256:4f7bc9d21697bb269460cd025687d860969b9d35d32e6c3eef5bbb49d7dab77e"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-x86_64-apple-darwin.tar.xz"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075522"
-
-[tools."github:tursodatabase/agentfs"."platforms.windows-x64"]
-checksum = "sha256:6386f8156399803ed40f324e712b57541600abb73ce30fc0d05a46eca5fa9641"
-url = "https://github.com/tursodatabase/agentfs/releases/download/v0.6.4/agentfs-x86_64-pc-windows-msvc.zip"
-url_api = "https://api.github.com/repos/tursodatabase/agentfs/releases/assets/381075527"
 
 [[tools.glab]]
 version = "1.117.0"

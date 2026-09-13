@@ -26,7 +26,6 @@ glab = "latest"
 
 # GitHub release binaries
 "github:cniska/acolyte" = { version = "latest", matching = "acolyte" }
-"github:tursodatabase/agentfs" = { version = "latest", matching = "agentfs" }
 "github:agent-sh/agnix" = { version = "latest", matching = "agnix" }
 "github:lucassabreu/clockify-cli" = { version = "latest", matching = "clockify-cli" }
 "github:DeusData/codebase-memory-mcp" = { version = "latest", matching = "codebase-memory-mcp" }
@@ -39,7 +38,7 @@ glab = "latest"
   "macos",
 ] }
 "github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi" }
-"github:ogulcancelik/herdr" = { version = "latest", matching = "herdr-", bin = "herdr" }
+"github:herdrdev/herdr" = { version = "latest", matching = "herdr-", bin = "herdr" }
 "github:kunchenguid/no-mistakes" = { version = "latest", prerelease = true, matching = "no-mistakes" }
 "github:can1357/oh-my-pi" = { version = "latest", matching_regex = "^omp-", bin = "omp" }
 "github:earendil-works/pi" = { version = "latest", matching_regex = "^pi-" }
@@ -72,7 +71,6 @@ bin = "sonar.exe"
 [tool_alias]
 acolyte = "github:cniska/acolyte"
 acpx = "npm:acpx"
-agentfs = "github:tursodatabase/agentfs"
 agnix = "github:agent-sh/agnix"
 chrome-devtools-axi = "npm:chrome-devtools-axi"
 clockify-cli = "github:lucassabreu/clockify-cli"
@@ -89,7 +87,6 @@ lavish-axi = "npm:lavish-axi"
 linear-axi = "npm:@nikolauska/linear-axi"
 no-mistakes = "github:kunchenguid/no-mistakes"
 omp = "github:can1357/oh-my-pi"
-pi = "github:earendil-works/pi"
 pup = "github:DataDog/pup"
 quota-axi = "npm:quota-axi"
 sentry-axi = "npm:@nikolauska/sentry-axi"
