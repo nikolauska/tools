@@ -410,7 +410,7 @@ url_api = "https://api.github.com/repos/getsentry/cli/releases/assets/555341968"
 provenance = "github-attestations"
 
 [[tools."github:kunchenguid/no-mistakes"]]
-version = "1.75.0"
+version = "1.75.1"
 backend = "github:kunchenguid/no-mistakes"
 specifiers = ["latest"]
 
@@ -418,39 +418,39 @@ specifiers = ["latest"]
 matching = "no-mistakes"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64"]
-checksum = "sha256:d98aaf3f11145da747b5991b49a880d1a6478cffebf67e06f21deed2ca18a770"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558771007"
+checksum = "sha256:bb88224d9621ca0ab22daf2ef6aa07770f8b5d6a95f8bbcd9c91920bd96c2e94"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300977"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64-musl"]
-checksum = "sha256:d98aaf3f11145da747b5991b49a880d1a6478cffebf67e06f21deed2ca18a770"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558771007"
+checksum = "sha256:bb88224d9621ca0ab22daf2ef6aa07770f8b5d6a95f8bbcd9c91920bd96c2e94"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300977"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64"]
-checksum = "sha256:0981dee765f1b22aeddbc84e790bb3905975cd56cee90353e7d7f7283bbbacb4"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558770870"
+checksum = "sha256:08bbbdcef0d8f0093cdddd57a51639b43708764f02f92067e76ba2ab14e7ddda"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301092"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64-musl"]
-checksum = "sha256:0981dee765f1b22aeddbc84e790bb3905975cd56cee90353e7d7f7283bbbacb4"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558770870"
+checksum = "sha256:08bbbdcef0d8f0093cdddd57a51639b43708764f02f92067e76ba2ab14e7ddda"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301092"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-arm64"]
-checksum = "sha256:43bfe30edc4382d5d49a76536943e3c7ee30fb2b1f0dcc86efd3b1b59a1217d8"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558771243"
+checksum = "sha256:b62802e7528d23e2c3ec9e45f04c9222873cfbbb310d9ad938736704a191a80f"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301586"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-x64"]
-checksum = "sha256:4982010b6e9276967874589169bcda36e5b763f7ef622c2f33e100b04ff02e9d"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558771112"
+checksum = "sha256:7a3b8031ca888a3f31961b961dd11a245cb25d511506bfe3ee5399ba2c73a131"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301170"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.windows-x64"]
-checksum = "sha256:c8f838fc1406ce469fb9d030c82b4640ca8f98f5b1cf394d94b7150fa24be3f5"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.0/no-mistakes-v1.75.0-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/558770735"
+checksum = "sha256:11b963c778d35ee17424a184ef7fb709496b561f324226a53bbb285e8c3adfe5"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300742"
 
 [[tools."github:kunchenguid/treehouse"]]
 version = "2.3.0"
@@ -790,6 +790,30 @@ url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/
 checksum = "sha256:3272ddb8e74f75e4d956b9fd137e7ababf23f3d74441c5ddc7a5ca45bb4eb8a0"
 url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_windows_amd64.zip"
 url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_windows_amd64%2Ezip"
+
+[[tools."http:sonarqube-cli"]]
+version = "1.7.0.4638"
+backend = "http:sonarqube-cli"
+specifiers = ["latest"]
+
+[tools."http:sonarqube-cli"."platforms.linux-arm64"]
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-arm64.bin"
+
+[tools."http:sonarqube-cli"."platforms.linux-arm64-musl"]
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-arm64.bin"
+
+[tools."http:sonarqube-cli"."platforms.linux-x64"]
+checksum = "blake3:2c51432df39c1658370bc7c8a6b31476aa071a02e6e905362f1d2b41ee923407"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-x86-64.bin"
+
+[tools."http:sonarqube-cli"."platforms.linux-x64-musl"]
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-x86-64.bin"
+
+[tools."http:sonarqube-cli"."platforms.macos-arm64"]
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/macos/sonarqube-cli-1.7.0.4638-macos-arm64.bin"
+
+[tools."http:sonarqube-cli"."platforms.windows-x64"]
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/windows/sonarqube-cli-1.7.0.4638-windows-x86-64.exe"
 
 [[tools.node]]
 version = "24.21.0"
