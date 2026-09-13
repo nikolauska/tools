@@ -1,0 +1,551 @@
+# mise.toml
+#
+# Personal CLI/tool environment migrated from:
+# https://github.com/nikolauska/AUR
+#
+# Bootstrap:
+#
+#   mise trust
+#   mise bootstrap
+#
+# Or separately:
+#
+#   mise bootstrap packages apply
+#   mise install
+#
+# Update:
+#
+#   mise upgrade
+#   mise lock
+#
+# Reproduce:
+#
+#   mise install --locked
+#
+
+[settings]
+lockfile = true
+
+# Node 24 satisfies the highest Node requirement in the current packages
+# (including packages requiring Node >=22.x).
+#
+# The npm backend does not technically require Node to perform installation,
+# but many of these CLI packages require Node at runtime.
+[tools]
+node = "24"
+
+# Dependencies used by our wrapper CLIs.
+#
+# Prefer letting mise manage these instead of installing them through pacman.
+gh = "latest"
+glab = "latest"
+
+
+# ---------------------------------------------------------------------------
+# npm CLI tools
+# ---------------------------------------------------------------------------
+
+"npm:acpx" = "latest"
+
+"npm:chrome-devtools-axi" = "latest"
+
+"npm:@nikolauska/cbm-axi" = "latest"
+
+"npm:gh-axi" = "latest"
+
+"npm:@github/copilot" = "latest"
+
+"npm:gnhf" = "latest"
+
+"npm:lavish-axi" = "latest"
+
+"npm:@nikolauska/linear-axi" = "latest"
+
+"npm:quota-axi" = "latest"
+
+"npm:@nikolauska/sentry-axi" = "latest"
+
+"npm:@jkeskikangas/skillcheck" = "latest"
+
+"npm:skills" = "latest"
+
+"npm:tasks-axi" = "latest"
+
+
+# ---------------------------------------------------------------------------
+# GitHub release binaries
+# ---------------------------------------------------------------------------
+
+#
+# acolyte-agent-bin
+#
+# Upstream:
+# https://github.com/cniska/acolyte
+#
+"github:cniska/acolyte" = {
+  version = "latest",
+  matching = "acolyte",
+}
+
+
+#
+# agentfs-bin
+#
+# Upstream:
+# https://github.com/tursodatabase/agentfs
+#
+# Current AUR package explicitly chooses:
+# agentfs-x86_64-unknown-linux-gnu.tar.xz
+#
+# Let mise select OS/arch and use "agentfs" only to eliminate unrelated
+# release artifacts.
+#
+"github:tursodatabase/agentfs" = {
+  version = "latest",
+  matching = "agentfs",
+}
+
+
+#
+# agnix-bin
+#
+# Upstream:
+# https://github.com/agent-sh/agnix
+#
+"github:agent-sh/agnix" = {
+  version = "latest",
+  matching = "agnix",
+}
+
+
+#
+# clockify-cli-bin
+#
+# Upstream:
+# https://github.com/lucassabreu/clockify-cli
+#
+"github:lucassabreu/clockify-cli" = {
+  version = "latest",
+  matching = "clockify-cli",
+}
+
+
+#
+# codebase-memory-mcp-bin
+#
+# IMPORTANT:
+# The previous Arch package also installed:
+#
+#   /usr/lib/systemd/user/codebase-memory-mcp.service
+#
+# mise installs the executable here. Service installation is handled
+# separately by the tasks later in this file.
+#
+"github:DeusData/codebase-memory-mcp" = {
+  version = "latest",
+  matching = "codebase-memory-mcp",
+}
+
+
+#
+# collie-bin
+#
+# Collie distributes more than a trivial single binary in its archive.
+# Keep the complete archive installation instead of copying only the executable.
+#
+"github:AltanS/collie" = {
+  version = "latest",
+  matching = "collie-",
+  os = ["linux", "macos"],
+}
+
+
+#
+# dexter-bin
+#
+"github:remoteoss/dexter" = {
+  version = "latest",
+  matching = "dexter_",
+  os = ["linux", "macos"],
+}
+
+
+#
+# glab-axi-bin
+#
+# Upstream publishes binaries such as:
+#
+#   glab-axi-linux-amd64
+#
+# This is a bare binary rather than a normal archive.
+#
+"github:nikolauska/glab-axi" = {
+  version = "latest",
+  matching = "glab-axi",
+  bin = "glab-axi",
+}
+
+
+#
+# herdr-bin
+#
+# Upstream publishes bare platform binaries such as:
+#
+#   herdr-linux-x86_64
+#
+"github:ogulcancelik/herdr" = {
+  version = "latest",
+  matching = "herdr-",
+  bin = "herdr",
+}
+
+
+#
+# no-mistakes-bin
+#
+# The existing AUR updater explicitly allows prereleases.
+# Preserve that behavior.
+#
+"github:kunchenguid/no-mistakes" = {
+  version = "latest",
+  prerelease = true,
+  matching = "no-mistakes",
+}
+
+
+#
+# oh-my-pi-bin
+#
+# Project/repository name is oh-my-pi but executable is `omp`.
+#
+"github:can1357/oh-my-pi" = {
+  version = "latest",
+  matching_regex = "^omp-",
+  bin = "omp",
+}
+
+
+#
+# pi-agent-bin
+#
+# IMPORTANT:
+# The current PKGBUILD has custom behavior. It preserves assets/docs/WASM and
+# installs a wrapper which sets NPM_CONFIG_PREFIX before starting Pi.
+#
+# We keep the upstream archive intact here and create our own wrapper separately.
+#
+"github:earendil-works/pi" = {
+  version = "latest",
+  matching_regex = "^pi-",
+}
+
+
+#
+# pup-cli-bin
+#
+"github:DataDog/pup" = {
+  version = "latest",
+  matching = "pup_",
+}
+
+
+#
+# sentry-cli-bin
+#
+# Releases use names such as:
+#
+#   sentry-linux-x64.gz
+#
+# The final executable should simply be `sentry`.
+#
+"github:getsentry/cli" = {
+  version = "latest",
+  matching_regex = "^sentry-",
+  rename_exe = "sentry",
+}
+
+
+#
+# stripe-mock-bin
+#
+"github:stripe/stripe-mock" = {
+  version = "latest",
+  matching = "stripe-mock",
+}
+
+
+#
+# treehouse-bin
+#
+"github:kunchenguid/treehouse" = {
+  version = "latest",
+  matching = "treehouse",
+}
+
+
+# ---------------------------------------------------------------------------
+# Friendly aliases
+# ---------------------------------------------------------------------------
+#
+# These make:
+#
+#   mise ls-remote treehouse
+#
+# equivalent to:
+#
+#   mise ls-remote github:kunchenguid/treehouse
+#
+# They also let other config files refer to these tools using normal names.
+#
+
+[tool_alias]
+
+acolyte = "github:cniska/acolyte"
+acpx = "npm:acpx"
+agentfs = "github:tursodatabase/agentfs"
+agnix = "github:agent-sh/agnix"
+
+chrome-devtools-axi = "npm:chrome-devtools-axi"
+clockify-cli = "github:lucassabreu/clockify-cli"
+
+codebase-memory-mcp = "github:DeusData/codebase-memory-mcp"
+codebase-memory-mcp-axi = "npm:@nikolauska/cbm-axi"
+
+collie = "github:AltanS/collie"
+copilot = "npm:@github/copilot"
+dexter = "github:remoteoss/dexter"
+
+gh-axi = "npm:gh-axi"
+glab-axi = "github:nikolauska/glab-axi"
+gnhf = "npm:gnhf"
+
+herdr = "github:ogulcancelik/herdr"
+
+lavish-axi = "npm:lavish-axi"
+linear-axi = "npm:@nikolauska/linear-axi"
+
+no-mistakes = "github:kunchenguid/no-mistakes"
+omp = "github:can1357/oh-my-pi"
+
+pi = "github:earendil-works/pi"
+pup = "github:DataDog/pup"
+
+quota-axi = "npm:quota-axi"
+
+sentry-axi = "npm:@nikolauska/sentry-axi"
+sentry-cli = "github:getsentry/cli"
+
+skillcheck = "npm:@jkeskikangas/skillcheck"
+skills = "npm:skills"
+
+stripe-mock = "github:stripe/stripe-mock"
+
+tasks-axi = "npm:tasks-axi"
+
+treehouse = "github:kunchenguid/treehouse"
+
+
+# ---------------------------------------------------------------------------
+# Arch Linux host dependencies
+# ---------------------------------------------------------------------------
+#
+# These stay under pacman because they are host libraries / OS-level tools,
+# not versioned development CLI tools.
+#
+# mise bootstrap packages apply
+#
+# will ensure they are installed.
+#
+
+[bootstrap.packages]
+
+# Fundamental runtime dependencies appearing throughout the old PKGBUILDs.
+"pacman:git" = { version = "latest", os = "linux" }
+"pacman:glibc" = { version = "latest", os = "linux" }
+"pacman:gcc-libs" = { version = "latest", os = "linux" }
+"pacman:openssl" = { version = "latest", os = "linux" }
+"pacman:bash" = { version = "latest", os = "linux" }
+
+# GitHub Copilot native integration.
+#
+# The old github-copilot-cli PKGBUILD depends on:
+# glib2, libsecret and dbus in addition to glibc/node.
+"pacman:glib2" = { version = "latest", os = "linux" }
+"pacman:libsecret" = { version = "latest", os = "linux" }
+"pacman:dbus" = { version = "latest", os = "linux" }
+
+
+# ---------------------------------------------------------------------------
+# Bootstrap tasks
+# ---------------------------------------------------------------------------
+
+#
+# codebase-memory-mcp systemd user service
+#
+# The AUR package used to install this into:
+#
+#   /usr/lib/systemd/user/codebase-memory-mcp.service
+#
+# Installing a personal user service into ~/.config/systemd/user is a better
+# fit for a mise-managed user environment.
+#
+
+[tasks."setup:codebase-memory-service"]
+description = "Install the codebase-memory-mcp systemd user service"
+
+run = '''
+set -euo pipefail
+
+service_dir="${XDG_CONFIG_HOME:-$HOME/.config}/systemd/user"
+mkdir -p "$service_dir"
+
+cat > "$service_dir/codebase-memory-mcp.service" <<'EOF'
+[Unit]
+Description=Codebase Memory MCP daemon
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/env codebase-memory-mcp daemon start
+ExecStop=/usr/bin/env codebase-memory-mcp daemon stop
+
+[Install]
+WantedBy=default.target
+EOF
+
+systemctl --user daemon-reload
+
+echo "Installed codebase-memory-mcp.service"
+echo "Enable it with:"
+echo "  systemctl --user enable --now codebase-memory-mcp.service"
+'''
+
+
+#
+# Do not automatically enable services as part of `mise install`.
+#
+# Installing a CLI and changing persistent service state are two different
+# operations. Keeping this explicit prevents a normal tool update from
+# unexpectedly enabling/restarting a daemon.
+#
+
+[tasks."enable:codebase-memory-service"]
+description = "Enable and start the codebase-memory-mcp user service"
+depends = ["setup:codebase-memory-service"]
+
+run = '''
+systemctl --user enable --now codebase-memory-mcp.service
+'''
+
+
+[tasks."disable:codebase-memory-service"]
+description = "Disable the codebase-memory-mcp user service"
+
+run = '''
+systemctl --user disable --now codebase-memory-mcp.service || true
+'''
+
+
+# ---------------------------------------------------------------------------
+# Validation
+# ---------------------------------------------------------------------------
+
+[tasks.check]
+description = "Smoke-test the migrated CLI environment"
+
+run = '''
+set -euo pipefail
+
+failed=0
+
+check() {
+    name="$1"
+    shift
+
+    printf '%-28s ' "$name"
+
+    if command -v "$name" >/dev/null 2>&1; then
+        echo "OK: $(command -v "$name")"
+    else
+        echo "MISSING"
+        failed=1
+    fi
+}
+
+check acolyte
+check acpx
+check agentfs
+check agnix
+check chrome-devtools-axi
+check clockify-cli
+check codebase-memory-mcp
+check collie
+check copilot
+check dexter
+check gh
+check gh-axi
+check glab
+check glab-axi
+check gnhf
+check herdr
+check lavish-axi
+check linear-axi
+check no-mistakes
+check omp
+check pi
+check pup
+check quota-axi
+check sentry
+check sentry-axi
+check skillcheck
+check skills
+check stripe-mock
+check tasks-axi
+check treehouse
+
+exit "$failed"
+'''
+
+
+# ---------------------------------------------------------------------------
+# Maintenance
+# ---------------------------------------------------------------------------
+
+[tasks.update]
+description = "Upgrade all mise-managed tools and refresh the lockfile"
+
+run = '''
+set -euo pipefail
+
+mise upgrade
+mise lock
+mise run check
+'''
+
+
+[tasks.status]
+description = "Show tool and host-package status"
+
+run = '''
+set -euo pipefail
+
+mise current
+echo
+mise outdated
+echo
+mise bootstrap packages status
+'''
+
+
+[tasks.bootstrap]
+description = "Bootstrap host packages, install tools, and validate"
+
+run = '''
+set -euo pipefail
+
+mise bootstrap packages apply
+mise install
+mise lock
+mise run check
+'''
