@@ -1,6 +1,9 @@
 [settings]
 lockfile = true
 
+[settings.github]
+credential_command = "gh auth token"
+
 [tools]
 # Node 24 satisfies the highest runtime requirement of the npm tools below.
 node = "24"

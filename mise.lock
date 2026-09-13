@@ -769,6 +769,7 @@ url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/li
 url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/macos/sonarqube-cli-1.7.0.4638-macos-arm64.bin"
 
 [tools."http:sonarqube-cli"."platforms.windows-x64"]
+checksum = "blake3:a85079de833ebfcb320e8cb874b1153e07470307ddd3aa7d0d0fd0da26b9cb56"
 url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/windows/sonarqube-cli-1.7.0.4638-windows-x86-64.exe"
 
 [[tools.node]]
