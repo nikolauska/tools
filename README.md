@@ -37,21 +37,18 @@ git clone https://github.com/nikolauska/tools.git ~/.config/mise
 ### Windows
 
 ```powershell
+git clone https://github.com/nikolauska/tools.git "$HOME\.config\mise"
 ```
-
-git clone <https://github.com/nikolauska/tools.git> "$HOME\.config\mise"
 
 Then install the configured tools:
 
 ```bash
 
-mise install
+mise bootstrap
 ```
 
 ## Update
 
 ```bash
-cd ~/.config/mise
-git pull
-mise install
+mise update
 ```
