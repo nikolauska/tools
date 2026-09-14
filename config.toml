@@ -30,6 +30,7 @@ glab = "latest"
 # GitHub release binaries
 "github:cniska/acolyte" = { version = "latest", matching = "acolyte" }
 "github:agent-sh/agnix" = { version = "latest", matching = "agnix" }
+"github:CircleCI-Public/circleci-cli" = { version = "latest", matching = "circleci-cli_", bin = "circleci" }
 "github:lucassabreu/clockify-cli" = { version = "latest", matching = "clockify-cli" }
 "github:DeusData/codebase-memory-mcp" = { version = "latest", matching = "codebase-memory-mcp" }
 "github:AltanS/collie" = { version = "latest", matching = "collie-", os = [
@@ -76,6 +77,7 @@ acolyte = "github:cniska/acolyte"
 acpx = "npm:acpx"
 agnix = "github:agent-sh/agnix"
 chrome-devtools-axi = "npm:chrome-devtools-axi"
+circleci = "github:CircleCI-Public/circleci-cli"
 clockify-cli = "github:lucassabreu/clockify-cli"
 codebase-memory-mcp = "github:DeusData/codebase-memory-mcp"
 codebase-memory-mcp-axi = "npm:@nikolauska/cbm-axi"
