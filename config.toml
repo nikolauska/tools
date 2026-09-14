@@ -122,7 +122,6 @@ run = ["mise current", "mise outdated"]
 [tasks.bootstrap]
 description = "Install tools and apply services"
 run = [
-  "mise install",
-  "mise lock --global",
+  "mise install --locked",
   "mise bootstrap services apply --yes",
 ]
