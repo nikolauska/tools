@@ -113,10 +113,6 @@ description = "Keep the Codebase Memory MCP daemon warm for CLI commands"
 restart = "on-failure"
 requires_tools = true
 
-[tasks.update]
-description = "Upgrade all mise-managed tools and refresh the lockfile"
-run = ["mise upgrade", "mise lock --global"]
-
 [tasks.status]
 description = "Show mise-managed tool status"
 run = ["mise current", "mise outdated"]
