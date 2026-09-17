@@ -3,54 +3,54 @@
 lockfile_version = 1
 
 [[tools.gh]]
-version = "2.100.0"
+version = "2.101.0"
 backend = "aqua:cli/cli"
 specifiers = ["latest"]
 
 [tools.gh."platforms.linux-arm64"]
-checksum = "sha256:ea4e7a581a32ccad6cc7923cb1576ac5859ba4b9a16ab22eb8f8a96e78e2e961"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974279"
+checksum = "sha256:b57e8063f18862647c9d22727c32e9da1b963f8bf9db648fe123a6975695640f"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857147"
 provenance = "github-attestations"
 
 [tools.gh."platforms.linux-arm64-musl"]
-checksum = "sha256:ea4e7a581a32ccad6cc7923cb1576ac5859ba4b9a16ab22eb8f8a96e78e2e961"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974279"
+checksum = "sha256:b57e8063f18862647c9d22727c32e9da1b963f8bf9db648fe123a6975695640f"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857147"
 provenance = "github-attestations"
 
 [tools.gh."platforms.linux-x64"]
-checksum = "sha256:e4d4bb4498e8d007abe545b6568926793ace1b6447da598294a610018cb164be"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974264"
+checksum = "sha256:9bca2d1c16825f109907a23307628a2f0698fbf99662b73a5cf0b020293072b8"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857134"
 provenance = "github-attestations"
 
 [tools.gh."platforms.linux-x64-musl"]
-checksum = "sha256:e4d4bb4498e8d007abe545b6568926793ace1b6447da598294a610018cb164be"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974264"
+checksum = "sha256:9bca2d1c16825f109907a23307628a2f0698fbf99662b73a5cf0b020293072b8"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857134"
 provenance = "github-attestations"
 
 [tools.gh."platforms.macos-arm64"]
-checksum = "sha256:45f9a62da2f6e641a7fad57e2ce39656dfd7ef331372d80a2a2aed65abb01642"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_macOS_arm64.zip"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974295"
+checksum = "sha256:e4303e39d8f07141c4bad4b99b01079f05029c59b27076e8fbc825c985ecdd8b"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_macOS_arm64.zip"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857200"
 provenance = "github-attestations"
 
 [tools.gh."platforms.macos-x64"]
-checksum = "sha256:fcd7799e85eb575f3c7d2b1679bfbfedaefa1269d4bc7d096b51e10939b4812b"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_macOS_amd64.zip"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974293"
+checksum = "sha256:a6fd66c88e2f07d6e4e058173db341d07dd74d58cf8f19ae668293d2bb614ca3"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_macOS_amd64.zip"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857203"
 provenance = "github-attestations"
 
 [tools.gh."platforms.windows-x64"]
-checksum = "sha256:227e35230b25db3fa1b997bab7cf4d67df0470a3b75b99e4ee66bce1a7cd4e72"
-url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_windows_amd64.zip"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/542974322"
+checksum = "sha256:bc6c814367b193cd8e713611d61e36013c0ef843b8f516458fe3eda039192794"
+url = "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_windows_amd64.zip"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857681"
 provenance = "github-attestations"
 
 [[tools."github:AltanS/collie"]]
-version = "1.8.0"
+version = "1.10.0"
 backend = "github:AltanS/collie"
 specifiers = ["latest"]
 
@@ -58,32 +58,32 @@ specifiers = ["latest"]
 matching = "collie-"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64"]
-checksum = "sha256:e85ad44297800d1106e3b9c10e365155866b9736ab44e8be11e4689d51091cb4"
-url = "https://github.com/AltanS/collie/releases/download/v1.8.0/collie-1.8.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/553150603"
+checksum = "sha256:a9155807e52ab8d3de5c2dfa5f8b6fbb895ea911749d53e7ebae39c2fb196892"
+url = "https://github.com/AltanS/collie/releases/download/v1.10.0/collie-1.10.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/567772265"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64-musl"]
-checksum = "sha256:e85ad44297800d1106e3b9c10e365155866b9736ab44e8be11e4689d51091cb4"
-url = "https://github.com/AltanS/collie/releases/download/v1.8.0/collie-1.8.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/553150603"
+checksum = "sha256:a9155807e52ab8d3de5c2dfa5f8b6fbb895ea911749d53e7ebae39c2fb196892"
+url = "https://github.com/AltanS/collie/releases/download/v1.10.0/collie-1.10.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/567772265"
 
 [tools."github:AltanS/collie"."platforms.linux-x64"]
-checksum = "sha256:0b6ceeb73b2d13319587491be7d7c941fdcb875c484886d5622922eae2918164"
-url = "https://github.com/AltanS/collie/releases/download/v1.8.0/collie-1.8.0-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/553150602"
+checksum = "sha256:14d55f93cd6d9766ac30b5285fdb99a3a4722e882b1b3fd0598302c2bad3e363"
+url = "https://github.com/AltanS/collie/releases/download/v1.10.0/collie-1.10.0-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/567772268"
 
 [tools."github:AltanS/collie"."platforms.linux-x64-musl"]
-checksum = "sha256:0b6ceeb73b2d13319587491be7d7c941fdcb875c484886d5622922eae2918164"
-url = "https://github.com/AltanS/collie/releases/download/v1.8.0/collie-1.8.0-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/553150602"
+checksum = "sha256:14d55f93cd6d9766ac30b5285fdb99a3a4722e882b1b3fd0598302c2bad3e363"
+url = "https://github.com/AltanS/collie/releases/download/v1.10.0/collie-1.10.0-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/567772268"
 
 [tools."github:AltanS/collie"."platforms.macos-arm64"]
-checksum = "sha256:6cdc09b5f7853b14ed634c775b71fabe50f45ece08cb25c980babf05cd3d11cc"
-url = "https://github.com/AltanS/collie/releases/download/v1.8.0/collie-1.8.0-macos-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/553150606"
+checksum = "sha256:8768c327ceebf56a84cb3aaa5b025ddec59eb7d7a5a03dcd006537a201c0d5d9"
+url = "https://github.com/AltanS/collie/releases/download/v1.10.0/collie-1.10.0-macos-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/567772263"
 
 [[tools."github:CircleCI-Public/circleci-cli"]]
-version = "1.0.50068"
+version = "1.0.50568"
 backend = "github:CircleCI-Public/circleci-cli"
 specifiers = ["latest"]
 
@@ -91,42 +91,42 @@ specifiers = ["latest"]
 matching = "circleci-cli_"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-arm64"]
-checksum = "sha256:d9f3d63d5accdd0c8ee3bc299c47b4be966349ae7d3b3c463a8175f574516cff"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182283"
+checksum = "sha256:feb33d961c901db48e3f5643d683e77ad6ffc702a703a578d62bb00effccff0f"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989334"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-arm64-musl"]
-checksum = "sha256:d9f3d63d5accdd0c8ee3bc299c47b4be966349ae7d3b3c463a8175f574516cff"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182283"
+checksum = "sha256:feb33d961c901db48e3f5643d683e77ad6ffc702a703a578d62bb00effccff0f"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989334"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-x64"]
-checksum = "sha256:4ed77d30ea42cbcafed779cf054ef788cb2e395f13c0c2a3ba58b0bdbc15e915"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182276"
+checksum = "sha256:424a5827feb89443d0402d2a6765491c49cc13d7b26c6099305774c193f5ae16"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989304"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-x64-musl"]
-checksum = "sha256:4ed77d30ea42cbcafed779cf054ef788cb2e395f13c0c2a3ba58b0bdbc15e915"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182276"
+checksum = "sha256:424a5827feb89443d0402d2a6765491c49cc13d7b26c6099305774c193f5ae16"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989304"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.macos-arm64"]
-checksum = "sha256:eeda74dd240d4f9b2d915b3bdb6665f6b8e3e4e0897019545c787f47eb725283"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182242"
+checksum = "sha256:cb7d34f8eadba58324bfac409b6fdaf8c7b1c2cfa19c6c9b110c47a59aba6ef2"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989303"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.macos-x64"]
-checksum = "sha256:86278dde852f04353485d353badfbba1c8bcafd7a3fd258dc7e79666db0778c6"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_darwin_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182243"
+checksum = "sha256:94e8a2e5fe0c29a5f0898fb1e55a8109a67ce39f20679b4fc1e8a26df573b4f6"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_darwin_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989340"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.windows-x64"]
-checksum = "sha256:185d01694b08a42c96de3d8ed065cfeb8f8ac4e3f45b0b11fc7e83841d153846"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50068/circleci-cli_1.0.50068_windows_amd64.zip"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/557182245"
+checksum = "sha256:a06fc313f4283dc6895c90eba4bf091cbf6272ebe0b18b6ad530d9dee16ac782"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50568/circleci-cli_1.0.50568_windows_amd64.zip"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/567989305"
 
 [[tools."github:DataDog/pup"]]
-version = "1.19.1"
+version = "1.21.1"
 backend = "github:DataDog/pup"
 specifiers = ["latest"]
 
@@ -134,42 +134,42 @@ specifiers = ["latest"]
 matching = "pup_"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64"]
-checksum = "sha256:960d59fb0085678b35c1592d48b82aaf19a663c5496444329c31b7909f8e8207"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969117"
+checksum = "sha256:7ab4e46c2058e9ff91f85835cde022349e173833739387aad535f7489745edb3"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909315"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64-musl"]
-checksum = "sha256:960d59fb0085678b35c1592d48b82aaf19a663c5496444329c31b7909f8e8207"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969117"
+checksum = "sha256:7ab4e46c2058e9ff91f85835cde022349e173833739387aad535f7489745edb3"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909315"
 
 [tools."github:DataDog/pup"."platforms.linux-x64"]
-checksum = "sha256:995c36655b45ea88b031a1a8e80b43d9d96c6e2c37aed9f3bd9545b0f6ba16b6"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969133"
+checksum = "sha256:553168d5c84bde79fed82a6b02801bbb0445cbc4c0ce5d265083e111967dbef0"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909325"
 
 [tools."github:DataDog/pup"."platforms.linux-x64-musl"]
-checksum = "sha256:995c36655b45ea88b031a1a8e80b43d9d96c6e2c37aed9f3bd9545b0f6ba16b6"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969133"
+checksum = "sha256:553168d5c84bde79fed82a6b02801bbb0445cbc4c0ce5d265083e111967dbef0"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909325"
 
 [tools."github:DataDog/pup"."platforms.macos-arm64"]
-checksum = "sha256:a0d359cc7b73af51b3bccf7c08447d3899ffc2560455c8b4a3b0517b68685893"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969118"
+checksum = "sha256:6c1af8b1938ec905aa603be77983e07b6893a2d7236ceae1e57730f10b782b68"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909314"
 
 [tools."github:DataDog/pup"."platforms.macos-x64"]
-checksum = "sha256:66a0f5532ca34f9653d79dd66fc99059e33ff4266407e83a0858ff518d6840b2"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Darwin_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969116"
+checksum = "sha256:5010451fbc8d6663db2212c4312b31e2a68e9d2b1943216c42952e531e377076"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Darwin_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909313"
 
 [tools."github:DataDog/pup"."platforms.windows-x64"]
-checksum = "sha256:8b4c85ef420a7a65f3730383c4187afbda257f0c4eacd1fe8b5f198505ed636c"
-url = "https://github.com/DataDog/pup/releases/download/v1.19.1/pup_1.19.1_Windows_x86_64.zip"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/553969151"
+checksum = "sha256:283ab477108df45e8351c498a2c9925250a5c569eab6cfeb0dc42457ed1ce66c"
+url = "https://github.com/DataDog/pup/releases/download/v1.21.1/pup_1.21.1_Windows_x86_64.zip"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/566909348"
 
 [[tools."github:DeusData/codebase-memory-mcp"]]
-version = "0.10.8"
+version = "0.11.0"
 backend = "github:DeusData/codebase-memory-mcp"
 specifiers = ["latest"]
 
@@ -177,50 +177,49 @@ specifiers = ["latest"]
 matching = "codebase-memory-mcp"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.linux-arm64"]
-checksum = "sha256:e2804a20f5a6fc392af361525a232703e351b7d1aacb81b88eef806eec5959fa"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282426"
+checksum = "sha256:c0e46c87cf37e35f1ac0bd9cc7e1d8b0ca4ef40034e1008805d709fa52a4e38a"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714375"
 provenance = "github-attestations"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.linux-arm64-musl"]
-checksum = "sha256:e2804a20f5a6fc392af361525a232703e351b7d1aacb81b88eef806eec5959fa"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282426"
+checksum = "sha256:c0e46c87cf37e35f1ac0bd9cc7e1d8b0ca4ef40034e1008805d709fa52a4e38a"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714375"
 provenance = "github-attestations"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.linux-x64"]
-checksum = "sha256:e5cba4cad6ca8254a85f45041fc8a831908d7d5cb64f98fc3f8eb70a58671793"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282421"
+checksum = "sha256:032b33c1833919a2d1de67ff6367fa6ea46aee8689c86ef223c88fae3b6e4536"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714382"
 provenance = "github-attestations"
-provenance_verified = true
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.linux-x64-musl"]
-checksum = "sha256:e5cba4cad6ca8254a85f45041fc8a831908d7d5cb64f98fc3f8eb70a58671793"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282421"
+checksum = "sha256:032b33c1833919a2d1de67ff6367fa6ea46aee8689c86ef223c88fae3b6e4536"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714382"
 provenance = "github-attestations"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.macos-arm64"]
-checksum = "sha256:9bd840dfb3ec7eaef4f310382057adaa5b0e904df883104d03ffcf39836afd07"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282436"
+checksum = "sha256:4dee7f38b63740e6751d7a7ed7eb10291c1f2a3ea2415f599dc68370ca0a2d18"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714371"
 provenance = "github-attestations"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.macos-x64"]
-checksum = "sha256:2b193085410af3801634a522f4b17dcd6699695e015a068393c87817c1d260d4"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282435"
+checksum = "sha256:dbf1c73bfcbde64e7dde4cd1320da7afc02e2c972ee1789ae039521411f5132e"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714380"
 provenance = "github-attestations"
 
 [tools."github:DeusData/codebase-memory-mcp"."platforms.windows-x64"]
-checksum = "sha256:b43ad982994c4d829670749e08d3b622a74bb20041fc0a7d02bef6113f81c34d"
-url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.10.8/codebase-memory-mcp-windows-amd64.zip"
-url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/520282424"
+checksum = "sha256:6eb6beaf261b19e419766e78baf93cbc3cf1c6338cff8fb7c0234859f96d1685"
+url = "https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.11.0/codebase-memory-mcp-windows-amd64.zip"
+url_api = "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases/assets/566714396"
 provenance = "github-attestations"
 
 [[tools."github:agent-sh/agnix"]]
-version = "0.52.2"
+version = "0.54.0"
 backend = "github:agent-sh/agnix"
 specifiers = ["latest"]
 
@@ -228,44 +227,43 @@ specifiers = ["latest"]
 matching = "agnix"
 
 [tools."github:agent-sh/agnix"."platforms.linux-arm64"]
-checksum = "sha256:9de14ab6114dbd89751940536da5854133d17d8b813473af944069b0e2ca9575"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365071"
+checksum = "sha256:0300848c20b9716d2e86bb59686cb48ab5e023d38f9ac319a3a760d5e2e84d4b"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512164"
 provenance = "github-attestations"
 
 [tools."github:agent-sh/agnix"."platforms.linux-arm64-musl"]
-checksum = "sha256:9de14ab6114dbd89751940536da5854133d17d8b813473af944069b0e2ca9575"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365071"
+checksum = "sha256:0300848c20b9716d2e86bb59686cb48ab5e023d38f9ac319a3a760d5e2e84d4b"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512164"
 provenance = "github-attestations"
 
 [tools."github:agent-sh/agnix"."platforms.linux-x64"]
-checksum = "sha256:3602d4cf79db1019f87e3285886fecc9eaacebeb48a468e8d5439a31bf7a3fe0"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365052"
+checksum = "sha256:12d1f7d01baa1ccdff92501758832a80d7373ef97415d50cb05e7c3a3fa92b4f"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512143"
 provenance = "github-attestations"
-provenance_verified = true
 
 [tools."github:agent-sh/agnix"."platforms.linux-x64-musl"]
-checksum = "sha256:1a60f7e74edcaef0dc68e08cc6b16d2c7023a26fff3a26ecc589a835b120fed5"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365045"
+checksum = "sha256:c21d454b23da5daacd3a9a42942e442023a2fbcb19b90bc72b3cb84cee3b91d1"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512154"
 provenance = "github-attestations"
 
 [tools."github:agent-sh/agnix"."platforms.macos-arm64"]
-checksum = "sha256:0d48f71e7dadd23f0e8ce60e78ddf3b96206709815055c37b425af3ba4180887"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-aarch64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365073"
+checksum = "sha256:edd5cad6028e363c8dd361b4a637741ad35344857083cbc909ae56d052e80dac"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512165"
 provenance = "github-attestations"
 
 [tools."github:agent-sh/agnix"."platforms.windows-x64"]
-checksum = "sha256:84eb3fe17f211dba9173541bf835f59ddceea5689085e3d61a9d83f7b27ef0a0"
-url = "https://github.com/agent-sh/agnix/releases/download/v0.52.2/agnix-x86_64-pc-windows-msvc.zip"
-url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/546365050"
+checksum = "sha256:d92e34f66a2d87db395dc3e8ed9b316597812fdb0cd5b4efc970bc27e839df16"
+url = "https://github.com/agent-sh/agnix/releases/download/v0.54.0/agnix-x86_64-pc-windows-msvc.zip"
+url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512145"
 provenance = "github-attestations"
 
 [[tools."github:can1357/oh-my-pi"]]
-version = "18.1.18"
+version = "18.2.1"
 backend = "github:can1357/oh-my-pi"
 specifiers = ["latest"]
 
@@ -273,39 +271,39 @@ specifiers = ["latest"]
 matching_regex = "^omp-"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64"]
-checksum = "sha256:1ae8273c231ceb88cebc9971901cf7f5d97ed4149cdc740a814f629cd2b4dcb2"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-linux-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067175"
+checksum = "sha256:01ca88eddc6fba11367259dcffc4293fd9458c918f6e5012af35d73338ee1bdd"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-linux-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718876"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64-musl"]
-checksum = "sha256:24b80ad97661d3f76fbffa3f63121a33d744f87ba8c1ae40aa2c885152d5b677"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-linux-musl-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067180"
+checksum = "sha256:479cb5bb5c92831eeb60492d11281789b4bca1d939fceb31a47e546535f537f7"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-linux-musl-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718877"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64"]
-checksum = "sha256:45421f9a5f112bc47cb9f77c4b4d7927631f8ff859624f821287ec854eb239fc"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-linux-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067177"
+checksum = "sha256:9c76485c4e65875678b88c7926c7e6891d488796676f359de9c4df584c886fc9"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-linux-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718881"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64-musl"]
-checksum = "sha256:23e2b7170a47f83cd2941e5f6fe51b2218873b8fe0de97a0d2170afa3cdba406"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-linux-musl-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067170"
+checksum = "sha256:a027ce78b9ae6f2ccbf947798f31e6812b07cfd71bcbd89e64d98c751de698ee"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-linux-musl-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718874"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-arm64"]
-checksum = "sha256:035a35dcb249edb939fa02b74fc7c0df9b2eb659079349fbffb188e1b558957a"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-darwin-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067172"
+checksum = "sha256:ac673868a1598b4beda98dc6ce2148f24afabc42816c702b2dac5f79f0d861de"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-darwin-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718879"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-x64"]
-checksum = "sha256:29fead1b667dc969b825c5aa4798aadb5b7ec9b2f15c3304b10196d7afa4171d"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-darwin-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067179"
+checksum = "sha256:6a5e678b95fdceec03eb1bdcd5046ff76e25eb092acab5d52a785e7582b4467e"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-darwin-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718883"
 
 [tools."github:can1357/oh-my-pi"."platforms.windows-x64"]
-checksum = "sha256:d9cf773ee3fd3823af9bc073c880fce4013920b2478bd5a02feff35920424378"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.1.18/omp-windows-x64.exe"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/558067169"
+checksum = "sha256:fee52652c7b0b90eb7716b3c6da50ab4d90442505eef1c5349c9428e8d966679"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.1/omp-windows-x64.exe"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/566718873"
 
 [[tools."github:cniska/acolyte"]]
 version = "0.27.2"
@@ -503,7 +501,7 @@ url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/549270164
 provenance = "github-attestations"
 
 [[tools."github:kunchenguid/no-mistakes"]]
-version = "1.75.1"
+version = "1.77.0"
 backend = "github:kunchenguid/no-mistakes"
 specifiers = ["latest"]
 
@@ -511,39 +509,39 @@ specifiers = ["latest"]
 matching = "no-mistakes"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64"]
-checksum = "sha256:bb88224d9621ca0ab22daf2ef6aa07770f8b5d6a95f8bbcd9c91920bd96c2e94"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300977"
+checksum = "sha256:1734c8b98ce8b86021642e73eb59c40e152df3c1a1d6713ee4b29220b1ea96b5"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027312"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64-musl"]
-checksum = "sha256:bb88224d9621ca0ab22daf2ef6aa07770f8b5d6a95f8bbcd9c91920bd96c2e94"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300977"
+checksum = "sha256:1734c8b98ce8b86021642e73eb59c40e152df3c1a1d6713ee4b29220b1ea96b5"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027312"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64"]
-checksum = "sha256:08bbbdcef0d8f0093cdddd57a51639b43708764f02f92067e76ba2ab14e7ddda"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301092"
+checksum = "sha256:335b56aa563209776ff94d435005327883d7b4330390f912b85defed159bd3a8"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027314"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64-musl"]
-checksum = "sha256:08bbbdcef0d8f0093cdddd57a51639b43708764f02f92067e76ba2ab14e7ddda"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301092"
+checksum = "sha256:335b56aa563209776ff94d435005327883d7b4330390f912b85defed159bd3a8"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027314"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-arm64"]
-checksum = "sha256:b62802e7528d23e2c3ec9e45f04c9222873cfbbb310d9ad938736704a191a80f"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301586"
+checksum = "sha256:fdc0f94a2e2ed2d4e67434488b6dd8f622948a3cd10ef34a3d748c89c5333a68"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027255"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-x64"]
-checksum = "sha256:7a3b8031ca888a3f31961b961dd11a245cb25d511506bfe3ee5399ba2c73a131"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559301170"
+checksum = "sha256:0c12ac57570c70419338fe82bad6b946173692dae1b84b626c7980978e48d8ef"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027755"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.windows-x64"]
-checksum = "sha256:11b963c778d35ee17424a184ef7fb709496b561f324226a53bbb285e8c3adfe5"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.75.1/no-mistakes-v1.75.1-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/559300742"
+checksum = "sha256:8c3bc4ac9f2bd42c364e2e39667c7448a89f470d5b24378f058fa89547543e58"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.77.0/no-mistakes-v1.77.0-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/568027352"
 
 [[tools."github:kunchenguid/treehouse"]]
 version = "2.3.0"
@@ -751,69 +749,68 @@ url = "https://github.com/stripe/stripe-mock/releases/download/v0.203.0/stripe-m
 url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/531406674"
 
 [[tools.glab]]
-version = "1.117.0"
+version = "1.118.0"
 backend = "gitlab:gitlab-org/cli"
 specifiers = ["latest"]
 
 [tools.glab."platforms.linux-arm64"]
-checksum = "sha256:ce533c314b69014664020567d006b5c86435f0fa16561aba18929bea26506828"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_linux_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_linux_arm64%2Etar%2Egz"
+checksum = "sha256:0f6171766dd7f8246b7ce85bab18bd99d57ce2538e0ec9121c48fe004308eac4"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_linux_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_linux_arm64%2Etar%2Egz"
 
 [tools.glab."platforms.linux-arm64-musl"]
-checksum = "sha256:ce533c314b69014664020567d006b5c86435f0fa16561aba18929bea26506828"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_linux_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_linux_arm64%2Etar%2Egz"
+checksum = "sha256:0f6171766dd7f8246b7ce85bab18bd99d57ce2538e0ec9121c48fe004308eac4"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_linux_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_linux_arm64%2Etar%2Egz"
 
 [tools.glab."platforms.linux-x64"]
-checksum = "sha256:1edfd0fba284e93396a9fd8899b9fff10f34f90b733943b1a70e21431a1991ab"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_linux_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_linux_amd64%2Etar%2Egz"
+checksum = "sha256:f3782ddb62b6ab20d0031699ea7b43f345dc6f63e991883660e21343b9524931"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_linux_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_linux_amd64%2Etar%2Egz"
 
 [tools.glab."platforms.linux-x64-musl"]
-checksum = "sha256:1edfd0fba284e93396a9fd8899b9fff10f34f90b733943b1a70e21431a1991ab"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_linux_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_linux_amd64%2Etar%2Egz"
+checksum = "sha256:f3782ddb62b6ab20d0031699ea7b43f345dc6f63e991883660e21343b9524931"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_linux_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_linux_amd64%2Etar%2Egz"
 
 [tools.glab."platforms.macos-arm64"]
-checksum = "sha256:9fef4b1f302a5eebe615531d0e5e842ba79cb34df41580bdc0f399a465d8ad15"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_darwin_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_darwin_arm64%2Etar%2Egz"
+checksum = "sha256:d289e2ba48f85cc0639cb77e4ea78c14d222d099e8d545c7bb687ba779255f47"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_darwin_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_darwin_arm64%2Etar%2Egz"
 
 [tools.glab."platforms.macos-x64"]
-checksum = "sha256:9136d10c7f4399cb9ee206c75dbeddeb83062c7faafd80f4c5ce9afe88c63a31"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_darwin_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_darwin_amd64%2Etar%2Egz"
+checksum = "sha256:4807060de413264c69a36d5829e186918f58c5dcc8b884d75624b7052a5814ba"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_darwin_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_darwin_amd64%2Etar%2Egz"
 
 [tools.glab."platforms.windows-x64"]
-checksum = "sha256:3272ddb8e74f75e4d956b9fd137e7ababf23f3d74441c5ddc7a5ca45bb4eb8a0"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.117.0/downloads/glab_1.117.0_windows_amd64.zip"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E117%2E0/glab_1%2E117%2E0_windows_amd64%2Ezip"
+checksum = "sha256:f9e843edb625a6f78686d8f421f1e80f98f76fe993b75263c1aa9f428c8a32ff"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.118.0/downloads/glab_1.118.0_windows_amd64.zip"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E118%2E0/glab_1%2E118%2E0_windows_amd64%2Ezip"
 
 [[tools."http:sonarqube-cli"]]
-version = "1.7.0.4638"
+version = "1.8.0.5274"
 backend = "http:sonarqube-cli"
 specifiers = ["latest"]
 
 [tools."http:sonarqube-cli"."platforms.linux-arm64"]
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-arm64.bin"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/linux/sonarqube-cli-1.8.0.5274-linux-arm64.bin"
 
 [tools."http:sonarqube-cli"."platforms.linux-arm64-musl"]
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-arm64.bin"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/linux/sonarqube-cli-1.8.0.5274-linux-arm64.bin"
 
 [tools."http:sonarqube-cli"."platforms.linux-x64"]
-checksum = "blake3:2c51432df39c1658370bc7c8a6b31476aa071a02e6e905362f1d2b41ee923407"
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-x86-64.bin"
+checksum = "blake3:f75f0ca8691cdff04a75aceedc36513360191ea0a8262befc2b248d2634fc30c"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/linux/sonarqube-cli-1.8.0.5274-linux-x86-64.bin"
 
 [tools."http:sonarqube-cli"."platforms.linux-x64-musl"]
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/linux/sonarqube-cli-1.7.0.4638-linux-x86-64.bin"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/linux/sonarqube-cli-1.8.0.5274-linux-x86-64.bin"
 
 [tools."http:sonarqube-cli"."platforms.macos-arm64"]
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/macos/sonarqube-cli-1.7.0.4638-macos-arm64.bin"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/macos/sonarqube-cli-1.8.0.5274-macos-arm64.bin"
 
 [tools."http:sonarqube-cli"."platforms.windows-x64"]
-checksum = "blake3:a85079de833ebfcb320e8cb874b1153e07470307ddd3aa7d0d0fd0da26b9cb56"
-url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.7.0.4638/windows/sonarqube-cli-1.7.0.4638-windows-x86-64.exe"
+url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/windows/sonarqube-cli-1.8.0.5274-windows-x86-64.exe"
 
 [[tools.node]]
 version = "24.21.0"
@@ -849,7 +846,7 @@ checksum = "sha256:158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e
 url = "https://nodejs.org/dist/v24.21.0/node-v24.21.0-win-x64.zip"
 
 [[tools."npm:@github/copilot"]]
-version = "1.0.83"
+version = "1.0.85"
 backend = "npm:@github/copilot"
 specifiers = ["latest"]
 
@@ -874,7 +871,7 @@ backend = "npm:@nikolauska/sentry-axi"
 specifiers = ["latest"]
 
 [[tools."npm:acpx"]]
-version = "0.15.1"
+version = "0.16.0"
 backend = "npm:acpx"
 specifiers = ["latest"]
 
@@ -894,12 +891,12 @@ backend = "npm:gnhf"
 specifiers = ["latest"]
 
 [[tools."npm:lavish-axi"]]
-version = "0.1.67"
+version = "0.1.70"
 backend = "npm:lavish-axi"
 specifiers = ["latest"]
 
 [[tools."npm:quota-axi"]]
-version = "0.1.41"
+version = "0.1.45"
 backend = "npm:quota-axi"
 specifiers = ["latest"]
 
