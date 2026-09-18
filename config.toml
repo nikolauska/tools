@@ -14,7 +14,8 @@ glab = "latest"
 
 # npm CLI tools
 "npm:acpx" = "latest"
-"npm:chrome-devtools-axi" = "latest"
+"npm:chrome-devtools-axi" = { version = "latest", depends = ["npm:chrome-devtools-mcp"] }
+"npm:chrome-devtools-mcp" = "latest"
 "npm:@nikolauska/cbm-axi" = "latest"
 "npm:gh-axi" = "latest"
 "npm:@github/copilot" = "latest"
@@ -77,6 +78,7 @@ acolyte = "github:cniska/acolyte"
 acpx = "npm:acpx"
 agnix = "github:agent-sh/agnix"
 chrome-devtools-axi = "npm:chrome-devtools-axi"
+chrome-devtools-mcp = "npm:chrome-devtools-mcp"
 circleci = "github:CircleCI-Public/circleci-cli"
 clockify-cli = "github:lucassabreu/clockify-cli"
 codebase-memory-mcp = "github:DeusData/codebase-memory-mcp"
