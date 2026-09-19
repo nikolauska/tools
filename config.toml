@@ -12,6 +12,9 @@ node = "24"
 gh = "latest"
 glab = "latest"
 
+# Native CLI tools
+"conda:uncrustify" = "latest"
+
 # npm CLI tools
 "npm:acpx" = "latest"
 "npm:chrome-devtools-axi" = { version = "latest", depends = ["npm:chrome-devtools-mcp"] }
@@ -104,6 +107,7 @@ sonarqube-cli = "http:sonarqube-cli"
 stripe-mock = "github:stripe/stripe-mock"
 tasks-axi = "npm:tasks-axi"
 treehouse = "github:kunchenguid/treehouse"
+uncrustify = "conda:uncrustify"
 
 # codebase-memory-mcp has no public foreground daemon command yet. Its internal
 # permanent-daemon mode keeps the process attached to the service manager;
