@@ -282,7 +282,7 @@ url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.50
 url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/570318090"
 
 [[tools."github:DataDog/pup"]]
-version = "1.22.0"
+version = "1.22.1"
 backend = "github:DataDog/pup"
 specifiers = ["latest"]
 
@@ -290,39 +290,39 @@ specifiers = ["latest"]
 matching = "pup_"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64"]
-checksum = "sha256:8fa740e6e41800f937aa4079597645b005ca7995130ec31f5a0a79475ebc350e"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726236"
+checksum = "sha256:8548cbd4bbb188bc6c6cd0e293fb757aca56ce6dca0b50e517cd4138b50dd07d"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570337"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64-musl"]
-checksum = "sha256:8fa740e6e41800f937aa4079597645b005ca7995130ec31f5a0a79475ebc350e"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726236"
+checksum = "sha256:8548cbd4bbb188bc6c6cd0e293fb757aca56ce6dca0b50e517cd4138b50dd07d"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570337"
 
 [tools."github:DataDog/pup"."platforms.linux-x64"]
-checksum = "sha256:1f282f6416f297e5104a16c3365c8d9b6ff430fe85bc8c55470586d185756f6e"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726320"
+checksum = "sha256:7960cc0c63c3b9f227efd17eace4bdcf3cc3e0a4d43f563aae54a4248b174999"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570368"
 
 [tools."github:DataDog/pup"."platforms.linux-x64-musl"]
-checksum = "sha256:1f282f6416f297e5104a16c3365c8d9b6ff430fe85bc8c55470586d185756f6e"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726320"
+checksum = "sha256:7960cc0c63c3b9f227efd17eace4bdcf3cc3e0a4d43f563aae54a4248b174999"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570368"
 
 [tools."github:DataDog/pup"."platforms.macos-arm64"]
-checksum = "sha256:f81b0ba23ab3b60637968e9f418abc4efbedf8351c60b178ca9582508354b607"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726234"
+checksum = "sha256:ad6f155c51443fa8303396679f464e666fbcdee56c5424f442f1c9bc9d048364"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570334"
 
 [tools."github:DataDog/pup"."platforms.macos-x64"]
-checksum = "sha256:b115b23d1704836d11c3ef06f025e855561885ffe5fdafed2cc42075f8c7bfb3"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Darwin_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726230"
+checksum = "sha256:ab57b3af24469585a0041f57d79487bace90261ca2c7a10defbb2faa0c5cf83f"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Darwin_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570336"
 
 [tools."github:DataDog/pup"."platforms.windows-x64"]
-checksum = "sha256:11fe7eef727d518889aa52f8dd28ddd04eac7c43ef8b240e91d1167d9495445c"
-url = "https://github.com/DataDog/pup/releases/download/v1.22.0/pup_1.22.0_Windows_x86_64.zip"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/568726344"
+checksum = "sha256:5f93ceddc19403917badf4adfa366e2e4b20ed600bfd634e8ce7701df746ad02"
+url = "https://github.com/DataDog/pup/releases/download/v1.22.1/pup_1.22.1_Windows_x86_64.zip"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/571570384"
 
 [[tools."github:DeusData/codebase-memory-mcp"]]
 version = "0.11.0"
@@ -419,7 +419,7 @@ url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512145
 provenance = "github-attestations"
 
 [[tools."github:can1357/oh-my-pi"]]
-version = "18.2.4"
+version = "18.2.5"
 backend = "github:can1357/oh-my-pi"
 specifiers = ["latest"]
 
@@ -427,39 +427,39 @@ specifiers = ["latest"]
 matching_regex = "^omp-"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64"]
-checksum = "sha256:59fe68eee9103494016e22d4261c81ac64a3493df5a9b54816bc064a44fad7cf"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-linux-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894339"
+checksum = "sha256:cda1c2f9e03093c170fd770e698c680f9cad0dddc23c88d4209b87764653ecc4"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-linux-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337904"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64-musl"]
-checksum = "sha256:130cc0d5a48f1acbd680043ca5a05061e00009ceee42c8b2c3e674bce3dabaff"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-linux-musl-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894345"
+checksum = "sha256:5f8f403ec2c110924db2a8782e408db21466720fb87c780a2dcf8ab7b39fe084"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-linux-musl-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337895"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64"]
-checksum = "sha256:61b4cd50ceaea70baccae7b52a22034469130ea2985a0b2e9adc0f7b3a77a85f"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-linux-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894336"
+checksum = "sha256:19a18856c308885768da69b6d3a995a8ed0a9135a887d869df26023772dee839"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-linux-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337892"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64-musl"]
-checksum = "sha256:15c678eecf60a803690b9a48f1cb837c9be5a2415355626eab27468527b672e5"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-linux-musl-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894341"
+checksum = "sha256:fa42a141518f6814e894d327ea51ba4b8500d931fd60fe99b1f1a1b59f52a2cc"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-linux-musl-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337902"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-arm64"]
-checksum = "sha256:1a54cf39713ec1443a6323ed716f9b972af325065903ed5c0f0ca1bb626da9ba"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-darwin-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894344"
+checksum = "sha256:9602f93f94bd1ee5d69f9c7b8c373dbed47abe59f5a39315ef2f0fd3c517f743"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-darwin-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337894"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-x64"]
-checksum = "sha256:780a47a5e5668807f5ac1ca37067ddbc528a64edcdf964286bf346f7a83e0609"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-darwin-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894343"
+checksum = "sha256:1ef89b79693f7446b55fc59d2bb5ea1d7458cfb0a9db42d22d441208b46336f6"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-darwin-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337903"
 
 [tools."github:can1357/oh-my-pi"."platforms.windows-x64"]
-checksum = "sha256:2ca8f2e142ede392dc3c3aadf2a5d179f4169a181ce91f78ee70ddaf96455741"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.4/omp-windows-x64.exe"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/569894337"
+checksum = "sha256:4a38586611f533460f13e4bdc950c5cea02864012b9d4c41c4d3e73226c922fd"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.2.5/omp-windows-x64.exe"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/571337897"
 
 [[tools."github:cniska/acolyte"]]
 version = "0.27.2"
@@ -1002,7 +1002,7 @@ checksum = "sha256:158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e
 url = "https://nodejs.org/dist/v24.21.0/node-v24.21.0-win-x64.zip"
 
 [[tools."npm:@github/copilot"]]
-version = "1.0.85"
+version = "1.0.86"
 backend = "npm:@github/copilot"
 specifiers = ["latest"]
 
@@ -1057,12 +1057,12 @@ backend = "npm:lavish-axi"
 specifiers = ["latest"]
 
 [[tools."npm:quota-axi"]]
-version = "0.1.45"
+version = "0.1.46"
 backend = "npm:quota-axi"
 specifiers = ["latest"]
 
 [[tools."npm:skills"]]
-version = "1.6.0"
+version = "1.7.0"
 backend = "npm:skills"
 specifiers = ["latest"]
 
