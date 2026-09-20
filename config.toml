@@ -129,3 +129,15 @@ run = [
   "mise install --locked",
   "mise bootstrap services apply --yes",
 ]
+
+[dotfiles]
+"~/.agents/skills/cbm-axi" = { source = "dotfiles/.agents/skills/cbm-axi", mode = "copy" }
+"~/.agents/skills/chrome-devtools-axi" = { source = "dotfiles/.agents/skills/chrome-devtools-axi", mode = "copy" }
+"~/.agents/skills/gh-axi" = { source = "dotfiles/.agents/skills/gh-axi", mode = "copy" }
+"~/.agents/skills/gnhf" = { source = "dotfiles/.agents/skills/gnhf", mode = "copy" }
+"~/.agents/skills/lavish" = { source = "dotfiles/.agents/skills/lavish", mode = "copy" }
+"~/.agents/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }
+"~/.agents/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
+"~/.agents/skills/quota-axi" = { source = "dotfiles/.agents/skills/quota-axi", mode = "copy" }
+"~/.agents/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
+"~/.agents/skills/tasks-axi" = { source = "dotfiles/.agents/skills/tasks-axi", mode = "copy" }
