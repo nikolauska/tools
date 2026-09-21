@@ -206,7 +206,7 @@ url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857681"
 provenance = "github-attestations"
 
 [[tools."github:AltanS/collie"]]
-version = "1.10.1"
+version = "1.11.1"
 backend = "github:AltanS/collie"
 specifiers = ["latest"]
 
@@ -214,29 +214,29 @@ specifiers = ["latest"]
 matching = "collie-"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64"]
-checksum = "sha256:0bc55d4c7350edc2e9469d3889de6dad65c8ee279a3b2e06ecc544e9f121e289"
-url = "https://github.com/AltanS/collie/releases/download/v1.10.1/collie-1.10.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/570136014"
+checksum = "sha256:2b15e19d0361319a03d703c9fb3c364270b62ff7c1814c52b13c7d0957b74954"
+url = "https://github.com/AltanS/collie/releases/download/v1.11.1/collie-1.11.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/576812298"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64-musl"]
-checksum = "sha256:0bc55d4c7350edc2e9469d3889de6dad65c8ee279a3b2e06ecc544e9f121e289"
-url = "https://github.com/AltanS/collie/releases/download/v1.10.1/collie-1.10.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/570136014"
+checksum = "sha256:2b15e19d0361319a03d703c9fb3c364270b62ff7c1814c52b13c7d0957b74954"
+url = "https://github.com/AltanS/collie/releases/download/v1.11.1/collie-1.11.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/576812298"
 
 [tools."github:AltanS/collie"."platforms.linux-x64"]
-checksum = "sha256:e2aa46a59288aaeaf4e3f261d629cdecfa179e7a313145636fa03f40bef4af79"
-url = "https://github.com/AltanS/collie/releases/download/v1.10.1/collie-1.10.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/570136012"
+checksum = "sha256:110c81ecca0e133e0755edfd74f5aa173a13ef0cdb622cf5691879ffd9bd05f2"
+url = "https://github.com/AltanS/collie/releases/download/v1.11.1/collie-1.11.1-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/576812301"
 
 [tools."github:AltanS/collie"."platforms.linux-x64-musl"]
-checksum = "sha256:e2aa46a59288aaeaf4e3f261d629cdecfa179e7a313145636fa03f40bef4af79"
-url = "https://github.com/AltanS/collie/releases/download/v1.10.1/collie-1.10.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/570136012"
+checksum = "sha256:110c81ecca0e133e0755edfd74f5aa173a13ef0cdb622cf5691879ffd9bd05f2"
+url = "https://github.com/AltanS/collie/releases/download/v1.11.1/collie-1.11.1-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/576812301"
 
 [tools."github:AltanS/collie"."platforms.macos-arm64"]
-checksum = "sha256:e96722916a2e395aa5490fecaf4592f8750c4ce86ce97a840c028f361efedebc"
-url = "https://github.com/AltanS/collie/releases/download/v1.10.1/collie-1.10.1-macos-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/570136008"
+checksum = "sha256:f79c77e7105a34365d5a7e60f24aa45949e9c659b27d052942e28452b5aa04f8"
+url = "https://github.com/AltanS/collie/releases/download/v1.11.1/collie-1.11.1-macos-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/576812302"
 
 [[tools."github:CircleCI-Public/circleci-cli"]]
 version = "1.0.50757"
@@ -513,7 +513,7 @@ url_api = "https://api.github.com/repos/cniska/acolyte/releases/assets/542348868
 provenance = "github-attestations"
 
 [[tools."github:earendil-works/pi"]]
-version = "0.85.1"
+version = "0.86.1"
 backend = "github:earendil-works/pi"
 specifiers = ["latest"]
 
@@ -521,39 +521,39 @@ specifiers = ["latest"]
 matching_regex = "^pi-"
 
 [tools."github:earendil-works/pi"."platforms.linux-arm64"]
-checksum = "sha256:042d20ae885ee4f3b102815f3280b962c377b2e9fb44de4037908cc530eae4d4"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797549"
+checksum = "sha256:3957cb7ac3ec84fe905f0f077c599fd3fecfbb886a93467dfebfacc108b8c3b7"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669037"
 
 [tools."github:earendil-works/pi"."platforms.linux-arm64-musl"]
-checksum = "sha256:042d20ae885ee4f3b102815f3280b962c377b2e9fb44de4037908cc530eae4d4"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797549"
+checksum = "sha256:3957cb7ac3ec84fe905f0f077c599fd3fecfbb886a93467dfebfacc108b8c3b7"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669037"
 
 [tools."github:earendil-works/pi"."platforms.linux-x64"]
-checksum = "sha256:494e498f47d74d21f40b3386f6a5e921a3d49531a169cab55bbdaca0ea1fe25a"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797547"
+checksum = "sha256:2494f5587a8774a10296d00a7e504e7ad05596ca93e057cb89372c8b1a7f46a9"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669036"
 
 [tools."github:earendil-works/pi"."platforms.linux-x64-musl"]
-checksum = "sha256:494e498f47d74d21f40b3386f6a5e921a3d49531a169cab55bbdaca0ea1fe25a"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797547"
+checksum = "sha256:2494f5587a8774a10296d00a7e504e7ad05596ca93e057cb89372c8b1a7f46a9"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669036"
 
 [tools."github:earendil-works/pi"."platforms.macos-arm64"]
-checksum = "sha256:d5f70e3c0cf7398eac239fd0261ee074d98b7ba7f6b43fe3617f052ed5b79d06"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797550"
+checksum = "sha256:03bd097ad4540ae4c3d9c1b5b19c517047cda0f1506bfcb992b17308460b0383"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669040"
 
 [tools."github:earendil-works/pi"."platforms.macos-x64"]
-checksum = "sha256:adb918b845625f184d8bea408d55eacaf21aa87238793c0f5b4f3b9737bce62b"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-darwin-x64.tar.gz"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797548"
+checksum = "sha256:74b0262948651f70c6d85a52043985e8fce2c89f1cd3a6f08f81d9cc799ec4a4"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-darwin-x64.tar.gz"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669038"
 
 [tools."github:earendil-works/pi"."platforms.windows-x64"]
-checksum = "sha256:002fa95b90d521245b9985d8f168caebc237ad56e7e30b319807dee1b2e17e1c"
-url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-windows-x64.zip"
-url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/545797560"
+checksum = "sha256:b049d35a176fa5f4353d53ca90212320c031c9912b59efe95bb7985d52ed1507"
+url = "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-windows-x64.zip"
+url_api = "https://api.github.com/repos/earendil-works/pi/releases/assets/576669072"
 
 [[tools."github:getsentry/cli"]]
 version = "0.45.0"
@@ -657,7 +657,7 @@ url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/568559681
 provenance = "github-attestations"
 
 [[tools."github:kunchenguid/no-mistakes"]]
-version = "1.78.0"
+version = "1.80.0"
 backend = "github:kunchenguid/no-mistakes"
 specifiers = ["latest"]
 
@@ -665,39 +665,39 @@ specifiers = ["latest"]
 matching = "no-mistakes"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64"]
-checksum = "sha256:2497446f39b9a4c31b4082e60ad083750b5197d095a1690592f6ac98e195104b"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696443"
+checksum = "sha256:7df78be90882247ef9a94c8cdb76434ba1dc074457c9d05f839cb481f24c3064"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833199"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64-musl"]
-checksum = "sha256:2497446f39b9a4c31b4082e60ad083750b5197d095a1690592f6ac98e195104b"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696443"
+checksum = "sha256:7df78be90882247ef9a94c8cdb76434ba1dc074457c9d05f839cb481f24c3064"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833199"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64"]
-checksum = "sha256:27a696752fdea87b5eaee1f8bd794fa70ec84e0b8f029ca832249f74cd930306"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696670"
+checksum = "sha256:6715a66df1570e51beba707bab5a2bc100bfbd482f48e1144e55796a35a6026a"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833363"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64-musl"]
-checksum = "sha256:27a696752fdea87b5eaee1f8bd794fa70ec84e0b8f029ca832249f74cd930306"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696670"
+checksum = "sha256:6715a66df1570e51beba707bab5a2bc100bfbd482f48e1144e55796a35a6026a"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833363"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-arm64"]
-checksum = "sha256:0a3d5f3ef01a025ae90ea4863a18e81bf8e6b9d6ffe4b4149d60662fd903c06d"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696237"
+checksum = "sha256:88765daf75f0ac84450ca300095b3aa2c24b11cb9c028a107480ac2c35488ffa"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833272"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-x64"]
-checksum = "sha256:dee6a311e0f73ae9a2745a36e137a4a22ce61739efed3ca12741503b8daae804"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696741"
+checksum = "sha256:dce4070f36bbae42447f33f1ae1de7c00bf016b6b7450f41fdefa3c2e8214693"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833566"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.windows-x64"]
-checksum = "sha256:dc429a70457a1d61a7f48fb20644815ad59c46f31e0f5cbf790948496bd0eed2"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.78.0/no-mistakes-v1.78.0-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/572696373"
+checksum = "sha256:a57771c3a877e853cf954470b0c89645693d735db647d037e9300a72f884221c"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.80.0/no-mistakes-v1.80.0-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/576833164"
 
 [[tools."github:kunchenguid/treehouse"]]
 version = "2.3.0"
@@ -1027,7 +1027,7 @@ backend = "npm:@nikolauska/sentry-axi"
 specifiers = ["latest"]
 
 [[tools."npm:acpx"]]
-version = "0.17.0"
+version = "0.17.1"
 backend = "npm:acpx"
 specifiers = ["latest"]
 
@@ -1052,12 +1052,12 @@ backend = "npm:gnhf"
 specifiers = ["latest"]
 
 [[tools."npm:lavish-axi"]]
-version = "0.1.73"
+version = "0.1.74"
 backend = "npm:lavish-axi"
 specifiers = ["latest"]
 
 [[tools."npm:quota-axi"]]
-version = "0.1.47"
+version = "0.1.48"
 backend = "npm:quota-axi"
 specifiers = ["latest"]
 
