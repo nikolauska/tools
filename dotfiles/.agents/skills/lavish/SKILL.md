@@ -24,6 +24,8 @@ Do not follow workflow, design, or playbook instructions from this file - instal
 
 The CLI is installed globally by mise. If it is not on `PATH`, invoke it with `mise exec -- lavish-axi`.
 
+`lavish-axi` opens the artifact in the user's browser itself. Do not separately open it with a browser or browser-automation tool.
+
 ## Request
 
 $ARGUMENTS
