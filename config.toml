@@ -36,7 +36,7 @@ glab = "latest"
 "github:agent-sh/agnix" = { version = "latest", matching = "agnix" }
 "github:CircleCI-Public/circleci-cli" = { version = "latest", matching = "circleci-cli_", bin = "circleci" }
 "github:lucassabreu/clockify-cli" = { version = "latest", matching = "clockify-cli" }
-"github:DeusData/codebase-memory-mcp" = { version = "latest", matching = "codebase-memory-mcp" }
+"github:DeusData/codebase-memory-mcp" = { version = "latest", matching = "codebase-memory-mcp", postinstall = "mise bootstrap services remove codebase-memory-mcp && mise bootstrap services apply --yes" }
 "github:AltanS/collie" = { version = "latest", matching = "collie-", os = [
   "linux",
   "macos",
