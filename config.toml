@@ -1,5 +1,6 @@
 [settings]
 lockfile = true
+minimum_release_age = "12h"
 
 [settings.github]
 credential_command = "gh auth token"
@@ -48,7 +49,7 @@ glab = "latest"
 "github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi" }
 "github:herdrdev/herdr" = { version = "latest", matching = "herdr-", bin = "herdr" }
 "github:kunchenguid/no-mistakes" = { version = "latest", prerelease = true, matching = "no-mistakes" }
-"github:can1357/oh-my-pi" = { version = "latest", matching_regex = "^omp-", bin = "omp" }
+"github:can1357/oh-my-pi" = { version = "latest", matching_regex = "^omp-", bin = "omp", minimum_release_age = "0s" }
 "github:earendil-works/pi" = { version = "latest", matching_regex = "^pi-" }
 "github:DataDog/pup" = { version = "latest", matching = "pup_" }
 "github:getsentry/cli" = { version = "latest", matching_regex = "^sentry-", rename_exe = "sentry" }
