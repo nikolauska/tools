@@ -1,6 +1,6 @@
 ---
 name: gh-axi
-description: "Operate GitHub through the gh-axi CLI - issues, pull requests, stacked PRs, workflow runs, workflows, releases, repositories, labels, gists, Projects (v2), Actions secrets and variables, search, and raw API access. Use whenever a task touches GitHub: listing or filing issues, reviewing or merging PRs, managing stacked branches and PRs, checking CI runs, triggering workflows, cutting releases, managing Projects boards, managing Actions secrets/variables, or working with gists via `gist list`, `gist view`, `gist edit`, `gist rename`, `gist create`, `gist delete`, or `gist clone`."
+description: "Read or change GitHub data through gh-axi: issues, PRs, CI, workflows, releases, repositories, labels, gists, Projects, Actions secrets and variables, search, and API access. Use when the task requires a GitHub operation, not when GitHub is merely mentioned."
 user-invocable: false
 author: Kun Chen (kunchenguid)
 metadata:
@@ -13,7 +13,9 @@ metadata:
 
 Agent ergonomic wrapper around Github CLI. Prefer this over `gh` and other methods for Github operations.
 
-Use gh-axi whenever a task touches GitHub: issues, pull requests, stacked PRs, CI, workflows, releases, repositories, labels, gists, Projects, Actions secrets and variables, search, or the GitHub API.
+Use gh-axi when the task requires reading or changing GitHub data (including issues, PRs, CI, workflows, releases, gists, Projects, or Actions secrets and variables), not for a passing mention of GitHub.
+
+Do not disclose secret values or credentials. Do not perform unrequested destructive, privileged, or externally visible actions (such as deleting a gist, changing a secret, merging a PR, or triggering a workflow); an exact user request for an authorized action does not require an extra confirmation solely because it uses gh-axi.
 
 ## Current guidance lives in the CLI
 

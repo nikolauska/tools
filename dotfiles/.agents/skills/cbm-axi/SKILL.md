@@ -1,8 +1,8 @@
 ---
 name: cbm-axi
 description: >
-  Use cbm-axi when exploring indexed codebases through codebase-memory-mcp,
-  especially for compact search, tracing, architecture, and source inspection.
+  Use cbm-axi for indexed codebase search, graph tracing, architecture, or
+  source inspection through codebase-memory-mcp.
 ---
 
 # cbm-axi
@@ -15,19 +15,20 @@ CLI never prompts.
 
 ## Workflow
 
-1. Run `cbm-axi` to see read-only status for the current directory, then use
-   `cbm-axi list_projects` and `cbm-axi index_status` for more detail.
-2. If it is not indexed, run
-   `cbm-axi index_repository --repo-path <path>`. If indexing fails because the
-   user cache is not writable, ask for permission to retry with elevated
-   filesystem access.
-3. Use list_projects, index_status, and get_graph_schema to orient.
-4. Use search_graph or search_code before reading source.
-5. Use get_code_snippet after discovering an exact qualified name.
-6. Use trace_path, query_graph, get_architecture, or detect_changes for
-   relationships and impact.
-7. Use `check_index_coverage` only when completeness matters or expected code
-   is absent from search; it is a best-effort signal, not proof of completeness.
+1. For indexed-codebase work, run `cbm-axi` for read-only status. Use
+   `list_projects` or `index_status` when the project or index state needs
+   clarification; use `get_graph_schema` when constructing graph queries.
+2. If the relevant repo is not indexed, index it when graph context is useful
+   to the task. For a narrow or simple lookup, use direct source search instead
+   of indexing the whole repo. If indexing fails because the user cache is not
+   writable, ask for permission before retrying with elevated filesystem access.
+3. In an indexed repo, use `search_graph` or `search_code` before requesting
+   graph snippets; use `get_code_snippet` after finding an exact qualified name.
+   Read source directly where needed to verify what the index reports.
+4. Use `trace_path`, `query_graph`, `get_architecture`, or `detect_changes`
+   when relationships, architecture, or impact matter.
+5. Use `check_index_coverage` when completeness matters or expected code is
+   absent from search; it is a best-effort signal, not proof of completeness.
 
 ## CLI commands
 

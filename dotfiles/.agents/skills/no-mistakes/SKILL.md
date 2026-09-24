@@ -1,6 +1,6 @@
 ---
 name: no-mistakes
-description: Validates committed code changes through the no-mistakes review, test, documentation, lint, push, PR, and CI pipeline. Use when the user invokes /no-mistakes, asks to run no-mistakes, gate, ship, or safely push changes, or asks for implementation followed by validation; do not use for ordinary local checks that do not authorize publication.
+description: Runs the no-mistakes review-to-PR/CI pipeline for committed changes. Use for explicit /no-mistakes, requests to run this pipeline after implementation, or requests to gate, ship, or safely push changes; not for implementation with ordinary local checks.
 ---
 
 # No Mistakes
@@ -9,7 +9,7 @@ Drive the local `no-mistakes axi` pipeline from committed feature-branch work to
 
 ## Safety invariants
 
-- Treat pipeline control and permission to publish as distinct. Run this skill only when the user requested no-mistakes, gating, shipping, safe push, or implementation followed by validation.
+- Treat pipeline control and permission to publish as distinct. Run this skill only for explicit `/no-mistakes`, a request for this pipeline after implementation, or a request to gate, ship, or safely push changes. Implementation with ordinary local validation does not invoke a publication-capable pipeline.
 - Never read or expose secrets. Never upload repository content except through the pipeline actions the user authorized.
 - Never reset, stash, merge, rebase, force-push, replace a branch, or discard commits to resolve pipeline custody. Follow the returned `branch_sync.next_action` exactly.
 - While a run is active, never edit its worktree, abort or rerun to bypass a gate, or push directly. The pipeline owns findings, fixes, commits, push, PR, and CI.
@@ -30,7 +30,7 @@ For bare `/no-mistakes`, validate the user's already committed changes. Translat
 
 ### Task-first
 
-For `/no-mistakes <task>` or a request to implement and then validate:
+For `/no-mistakes <task>` or an explicit request to implement and then run this pipeline:
 
 1. Inspect repository status. Preserve unrelated work.
 2. Implement the task and commit only its changes on a feature branch. If currently on the default branch, create a feature branch before committing.

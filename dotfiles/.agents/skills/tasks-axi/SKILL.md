@@ -1,6 +1,6 @@
 ---
 name: tasks-axi
-description: "Manage a task backlog through the tasks-axi CLI - add, list, show, start, and complete tasks; track blocked-by dependencies, structured holds, and a ready queue; prune and normalize a hand-editable backlog.md. Use whenever a task touches backlog or task state: filing or dispatching work, recording a PR or report on completion, finding dispatchable or held work, or trimming the Done list."
+description: "Manage backlog task state with tasks-axi when filing, dispatching, completing, holding, or pruning tracked work, or checking dependencies and the ready queue; not for general project planning."
 user-invocable: false
 author: Kun Chen (kunchenguid)
 metadata:

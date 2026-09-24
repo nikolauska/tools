@@ -1,6 +1,6 @@
 ---
 name: linear-axi
-description: "Operate Linear through the linear-axi CLI - issues, projects, teams, users, comments, documents, milestones, cycles, statuses, labels, auth, and repo project setup. Use whenever a task touches Linear: listing or creating issues, updating project work, reading documents, or managing comments. Do not use for non-Linear issue trackers."
+description: "Read or change Linear data through linear-axi: issues, projects, teams, users, comments, documents, milestones, cycles, statuses, labels, and repo project setup. Use when a task requires a Linear operation, not when Linear is merely mentioned."
 ---
 
 # linear-axi
@@ -13,12 +13,12 @@ linear-axi uses the configured Linear MCP server. The default remote endpoint us
 
 ## When to use
 
-Use linear-axi whenever a task touches Linear: listing, viewing, creating, or updating issues; browsing or editing projects and documents; creating or listing comments; checking teams, users, labels, cycles, milestones, or statuses; or binding the current repo to a default Linear project.
+Use linear-axi when the task requires reading or changing Linear data: listing, viewing, creating, or updating issues; browsing or editing projects and documents; managing comments; checking teams, users, labels, cycles, milestones, or statuses; or setting a requested default project. A passing mention of Linear does not require this skill.
 
 ## Workflow
 
-1. Run `linear-axi` with no arguments for a dashboard of the current repo. Uninitialized repos show setup hints instead of workspace-wide issue counts.
-2. List Linear projects with `linear-axi projects list`, then bind a repository with `linear-axi init --project "<project>"`; this accepts a project id, name, or slug, validates the project, and stores discovered workspace metadata in `.linear-project`.
+1. For workspace browsing, use the requested command directly (for example, `linear-axi projects list` or `linear-axi issues list --all-projects`); listing does not require a repository binding.
+2. Run `linear-axi` without arguments to view the current repo dashboard; this does not require a repository binding, and uninitialized repos show setup hints instead of workspace-wide issue counts. Only when a default project binding is explicitly requested or required for a subsequent command, list projects with `linear-axi projects list`, then run `linear-axi init --project "<project>"` to validate and store the default in `.linear-project`. Do not run `init` for generic browsing.
 3. Drill in command-first: `issues list`, `issues view <id>`, `projects list`, `documents view <id>`, `comments list --issue <id>`, and so on.
 4. Add `--fields` for columns, `--cursor` for pagination, and `--full` only when complete content is needed.
 5. Linear operation responses include contextual next-step hints under `help:` when recovery or follow-up is useful - follow them.

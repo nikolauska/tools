@@ -1,6 +1,6 @@
 ---
 name: lavish
-description: Turn complex or visual agent responses into rich, reviewable HTML artifacts the user can annotate and send feedback on, using the lavish-axi CLI. Use when about to give a plan, comparison, diagram, table, code diff, report, or anything easier to grasp visually than as prose.
+description: Use lavish-axi to create reviewable HTML artifacts when explicitly requested or when a complex visual deliverable materially improves review over ordinary prose.
 license: MIT
 metadata:
   author: Kun Chen (kunchenguid)
@@ -12,7 +12,7 @@ metadata:
 # Lavish Editor
 
 Lavish Editor opens agent-generated HTML in the browser so a human can annotate it and send feedback back to the agent.
-Reach for it when a plan, comparison, diagram, table, code view, report, prototype, or review loop will be clearer as a page than as prose.
+Use it for an explicit `/lavish` request, or when a complex plan, comparison, diagram, table, code view, report, prototype, or review loop materially benefits from an annotatable page. Otherwise respond in ordinary prose; a plain report alone does not call for an artifact.
 
 ## Current guidance lives in the CLI
 
@@ -31,4 +31,4 @@ The CLI is installed globally by mise. If it is not on `PATH`, invoke it with `m
 $ARGUMENTS
 
 If the request above is non-empty, the user invoked `/lavish` explicitly - fetch the current CLI guidance, then build that artifact.
-If it is empty, infer what to visualize from the conversation.
+If it is empty, infer the requested artifact from the conversation when `/lavish` was explicitly invoked; otherwise use the criteria above before choosing to visualize anything.

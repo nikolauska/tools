@@ -67,15 +67,9 @@ gnhf \
   "<worker prompt>"
 ```
 
-Use `--model <model>` to select a model for a run. For config defaults and agent-specific restrictions, follow the README [Configuration](../../README.md#configuration).
+Use `--model <model>` to select a model for a run; it overrides the local `agentModel.<agent>` configuration. Inspect the installed GNHF package guidance and local configuration for defaults and agent-specific restrictions before selecting a model.
 
-Before launch:
-
-```bash
-git status --short
-git branch --show-current
-git log --oneline --max-count=5
-```
+Before launch, inspect `git status --short` and `git branch --show-current` to identify the branch and preserve user changes. Inspect recent commits (`git log --oneline --max-count=5`) when commit history affects the task, prompt, or stop condition.
 
 Prompt skeleton:
 
@@ -84,9 +78,9 @@ Objective: <one concrete outcome>.
 
 Use <agent/model requirement>. Work in this repo. Treat this as a long-running GNHF task.
 
-Before coding, inspect the current repo, relevant docs, and recent commits. Preserve user changes. Do not make unrelated refactors.
+Before coding, inspect the current repo and relevant docs; inspect recent commits when they matter to the task. Preserve user changes and the current branch. Do not make unrelated refactors.
 
-After each meaningful slice, run relevant verification. If blocked, commit no fake success; leave notes with the blocker and evidence.
+Verify meaningful slices when that feedback is needed to guide the next slice; always gather evidence for the stop condition before claiming completion. If blocked, commit no fake success; leave notes with the blocker and evidence.
 
 Stop only when: <observable completion condition>.
 ```
@@ -158,7 +152,7 @@ Report mode, agent, branch, status, changes, verification, stop-condition result
 
 ## Agent
 
-The supported `--agent` roster comes from `gnhf --help`; the [Agents table](../../README.md#agents) in the GNHF README owns per-agent requirements. Do not hard-code the roster.
+Check `gnhf --help` for the installed version's supported `--agent` values. Consult the installed GNHF package guidance and the chosen agent's local configuration for per-agent requirements; do not hard-code the roster.
 
 - Default to the agent the user explicitly requested, or the one already configured and authenticated locally.
 - `codex`: repo-aware code work or review-heavy tasks.
