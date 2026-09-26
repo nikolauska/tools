@@ -1,0 +1,16 @@
+id = "treehouse.worktree"
+name = "Treehouse Worktree"
+version = "0.1.0"
+min_herdr_version = "0.9.1"
+description = "Open leased Treehouse worktrees as nested Herdr workspaces"
+platforms = ["linux", "macos", "windows"]
+
+[[actions]]
+id = "open"
+title = "Open Treehouse worktree"
+contexts = ["workspace"]
+command = ["node", "index.mjs", "open"]
+
+[[events]]
+on = "workspace.closed"
+command = ["node", "index.mjs", "closed"]

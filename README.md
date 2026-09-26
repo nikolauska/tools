@@ -47,6 +47,14 @@ Then install the configured tools:
 mise bootstrap
 ```
 
+## Herdr plugins
+
+Local Herdr plugins live in `herdr-plugins/`. When mise installs or upgrades Herdr, it links them in place with `herdr plugin link`, so Herdr runs the files straight from this repository. Linking again is harmless, so on a machine where Herdr is already installed you can link by hand:
+
+```bash
+herdr plugin link ~/.config/mise/herdr-plugins/treehouse-worktree
+```
+
 ## Update
 
 ```bash
