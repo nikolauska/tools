@@ -20,14 +20,14 @@ glab = "latest"
 "npm:acpx" = "latest"
 "npm:chrome-devtools-axi" = { version = "latest", depends = ["npm:chrome-devtools-mcp"] }
 "npm:chrome-devtools-mcp" = "latest"
-"npm:@nikolauska/cbm-axi" = "latest"
+"npm:@nikolauska/cbm-axi" = { version = "latest", minimum_release_age = "0s" }
 "npm:gh-axi" = "latest"
 "npm:@github/copilot" = "latest"
 "npm:gnhf" = "latest"
 "npm:lavish-axi" = "latest"
-"npm:@nikolauska/linear-axi" = "latest"
+"npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s" }
 "npm:quota-axi" = "latest"
-"npm:@nikolauska/sentry-axi" = "latest"
+"npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s" }
 "npm:@jkeskikangas/skillcheck" = "latest"
 "npm:skills" = "latest"
 "npm:tasks-axi" = "latest"
@@ -46,7 +46,7 @@ glab = "latest"
   "linux",
   "macos",
 ] }
-"github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi" }
+"github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi", minimum_release_age = "0s" }
 # Link local plugins kept in this repo; linking is idempotent and survives
 # herdr upgrades, so it only needs to run when herdr gets (re)installed.
 "github:herdrdev/herdr" = { version = "latest", matching = "herdr-", bin = "herdr", postinstall = "herdr plugin link {{xdg_config_home}}/mise/herdr-plugins/treehouse-worktree" }

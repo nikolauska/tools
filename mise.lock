@@ -1019,12 +1019,12 @@ backend = "npm:@jkeskikangas/skillcheck"
 specifiers = ["latest"]
 
 [[tools."npm:@nikolauska/cbm-axi"]]
-version = "0.7.2"
+version = "0.8.0"
 backend = "npm:@nikolauska/cbm-axi"
 specifiers = ["latest"]
 
 [[tools."npm:@nikolauska/linear-axi"]]
-version = "0.4.0"
+version = "0.4.1"
 backend = "npm:@nikolauska/linear-axi"
 specifiers = ["latest"]
 
