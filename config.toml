@@ -50,13 +50,13 @@ glab = "latest"
 # Link local plugins kept in this repo; linking is idempotent and survives
 # herdr upgrades, so it only needs to run when herdr gets (re)installed.
 "github:herdrdev/herdr" = { version = "latest", matching = "herdr-", bin = "herdr", postinstall = "herdr plugin link {{xdg_config_home}}/mise/herdr-plugins/treehouse-worktree" }
-"github:kunchenguid/no-mistakes" = { version = "latest", prerelease = true, matching = "no-mistakes" }
+"github:kunchenguid/no-mistakes" = { version = "latest", prerelease = true, matching = "no-mistakes", minimum_release_age = "0s" }
 "github:can1357/oh-my-pi" = { version = "latest", matching_regex = "^omp-", bin = "omp", minimum_release_age = "0s" }
 "github:earendil-works/pi" = { version = "latest", matching_regex = "^pi-" }
 "github:DataDog/pup" = { version = "latest", matching = "pup_" }
 "github:getsentry/cli" = { version = "latest", matching_regex = "^sentry-", rename_exe = "sentry" }
 "github:stripe/stripe-mock" = { version = "latest", matching = "stripe-mock" }
-"github:kunchenguid/treehouse" = { version = "latest", matching = "treehouse" }
+"github:kunchenguid/treehouse" = { version = "latest", matching = "treehouse", minimum_release_age = "0s" }
 
 # SonarQube CLI publishes platform binaries outside GitHub releases.
 [tools."http:sonarqube-cli"]

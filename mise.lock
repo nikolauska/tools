@@ -239,7 +239,7 @@ url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-
 url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570783"
 
 [[tools."github:CircleCI-Public/circleci-cli"]]
-version = "1.0.51453"
+version = "1.0.51515"
 backend = "github:CircleCI-Public/circleci-cli"
 specifiers = ["latest"]
 
@@ -247,49 +247,49 @@ specifiers = ["latest"]
 matching = "circleci-cli_"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-arm64"]
-checksum = "sha256:7909eb5242a67f8f6a5812a4d7488494e7b52cda79d68d431983cb815b6f938d"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994560"
+checksum = "sha256:c9f023cd9801a4b7d9d07631f92b80fbd83a2f9487be311ae3b58cbbe0cf2b61"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388375"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-arm64-musl"]
-checksum = "sha256:7909eb5242a67f8f6a5812a4d7488494e7b52cda79d68d431983cb815b6f938d"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994560"
+checksum = "sha256:c9f023cd9801a4b7d9d07631f92b80fbd83a2f9487be311ae3b58cbbe0cf2b61"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388375"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-x64"]
-checksum = "sha256:cbec609b6ef168485b04bcd6d5108335c1bdbacbf92b7bb0c6f0e3556c105783"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994565"
+checksum = "sha256:208d0e0fab4ebd1733381c0863557df2a1eed21bcb05cc55aa3efae1aac51f29"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388341"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.linux-x64-musl"]
-checksum = "sha256:cbec609b6ef168485b04bcd6d5108335c1bdbacbf92b7bb0c6f0e3556c105783"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994565"
+checksum = "sha256:208d0e0fab4ebd1733381c0863557df2a1eed21bcb05cc55aa3efae1aac51f29"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388341"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.macos-arm64"]
-checksum = "sha256:fac57e77cd4496dd12bdbb2427c2042089e7bb743c17ef423f401c4527e3968a"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994517"
+checksum = "sha256:43024d0128eaa63fb5b3881e0bbe8c1062f55ac8c7970e1296ce5f0fd81b6305"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388340"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.macos-x64"]
-checksum = "sha256:516ad1351c7781d8f964317888954ae7ed0a8137ed1219019ef6ed1d92565f07"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_darwin_amd64.tar.gz"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994520"
+checksum = "sha256:bbc34ac03d3bb70ed7920a8a0fbf1daafe38009aae889a731f561c16f454764b"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_darwin_amd64.tar.gz"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388338"
 provenance = "github-attestations"
 
 [tools."github:CircleCI-Public/circleci-cli"."platforms.windows-x64"]
-checksum = "sha256:1b3f398e20e9a6b8d4e737217df33efba60b5392f7a47e5bce0cbf7acd8284ec"
-url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51453/circleci-cli_1.0.51453_windows_amd64.zip"
-url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/587994527"
+checksum = "sha256:68a9291f325b780f4cf066832d2ba5b45f62c6f6b41a4969aa41eb7c4b4083ed"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.51515/circleci-cli_1.0.51515_windows_amd64.zip"
+url_api = "https://api.github.com/repos/CircleCI-Public/circleci-cli/releases/assets/588388339"
 provenance = "github-attestations"
 
 [[tools."github:DataDog/pup"]]
-version = "1.23.2"
+version = "1.23.4"
 backend = "github:DataDog/pup"
 specifiers = ["latest"]
 
@@ -297,39 +297,39 @@ specifiers = ["latest"]
 matching = "pup_"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64"]
-checksum = "sha256:62138133da26961e1ba290671cf45642542bd4a3325cef87935675dd3dd258f6"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790384"
+checksum = "sha256:0de5eed7358bbb5b639ac772058f4f042607ef572974f948d6a522dfd083f189"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412169"
 
 [tools."github:DataDog/pup"."platforms.linux-arm64-musl"]
-checksum = "sha256:62138133da26961e1ba290671cf45642542bd4a3325cef87935675dd3dd258f6"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790384"
+checksum = "sha256:0de5eed7358bbb5b639ac772058f4f042607ef572974f948d6a522dfd083f189"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412169"
 
 [tools."github:DataDog/pup"."platforms.linux-x64"]
-checksum = "sha256:a7ef325b8420fe0db60e44441d5e6629812e06707d800b3a82593b3b410e7071"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790408"
+checksum = "sha256:62102e7b4d4ccd77c8400f5e297b4eeab5b0192c566eefd1d8421d161d82fe05"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412179"
 
 [tools."github:DataDog/pup"."platforms.linux-x64-musl"]
-checksum = "sha256:a7ef325b8420fe0db60e44441d5e6629812e06707d800b3a82593b3b410e7071"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Linux_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790408"
+checksum = "sha256:62102e7b4d4ccd77c8400f5e297b4eeab5b0192c566eefd1d8421d161d82fe05"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Linux_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412179"
 
 [tools."github:DataDog/pup"."platforms.macos-arm64"]
-checksum = "sha256:2cfd069b9f750431a4367f54cfc9834294bbe9683866a510285cf1a54bbea283"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790386"
+checksum = "sha256:7c890ec8a09e4bcd6d72d356e6b10de0a701b15c9d61cda8200ffd688027061b"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412167"
 
 [tools."github:DataDog/pup"."platforms.macos-x64"]
-checksum = "sha256:474cdfab8be77f4fd64d9195ae6ae54a5986f484ba561e5196a0cc9036620cd9"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Darwin_x86_64.tar.gz"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790385"
+checksum = "sha256:fdb2b9d010cc9558d21f77b3618dfaec00b54f17f07641d337161066b28e6dc0"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Darwin_x86_64.tar.gz"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412166"
 
 [tools."github:DataDog/pup"."platforms.windows-x64"]
-checksum = "sha256:129d6bb25cb5e725cf817152a10e8b9ca9dcce5e00f07d0a5b8ba49df59ec9e5"
-url = "https://github.com/DataDog/pup/releases/download/v1.23.2/pup_1.23.2_Windows_x86_64.zip"
-url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/582790432"
+checksum = "sha256:1cca5e62339c270b3ecc7c2479b85f8bd0d1857c6302c0626080a47bfcae3884"
+url = "https://github.com/DataDog/pup/releases/download/v1.23.4/pup_1.23.4_Windows_x86_64.zip"
+url_api = "https://api.github.com/repos/DataDog/pup/releases/assets/589412197"
 
 [[tools."github:DeusData/codebase-memory-mcp"]]
 version = "0.11.0"
@@ -426,7 +426,7 @@ url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512145
 provenance = "github-attestations"
 
 [[tools."github:can1357/oh-my-pi"]]
-version = "18.3.1"
+version = "18.3.2"
 backend = "github:can1357/oh-my-pi"
 specifiers = ["latest"]
 
@@ -434,39 +434,39 @@ specifiers = ["latest"]
 matching_regex = "^omp-"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64"]
-checksum = "sha256:95b9e3dc3c2096885be2c9c923bd45bb3bf81d172367db7e7090936729261e2c"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-linux-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496033"
+checksum = "sha256:f56f4775abbf269c481c78799691eaa59a7d69644fa7d592c775e2c65f7b13da"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507781"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64-musl"]
-checksum = "sha256:f9fae7ccd077a0c386af6b979931c2875afcf79e53e230d3cbd1e19cfe6b3a8f"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-linux-musl-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496037"
+checksum = "sha256:3637404c77771b6d923986c8d026f8b0f9545e84772df5c9d8f0aaab52c8507d"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-musl-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507794"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64"]
-checksum = "sha256:0806df602bf2bb9b202d152204b1bef6450eb6bcbfbf31d66e3767d1bbb3b3a7"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-linux-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496036"
+checksum = "sha256:8cbbcd4bea7a7b86116a13352f31e3778fd4d93df931036bb1771738b0702534"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507783"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64-musl"]
-checksum = "sha256:32a053aaabd3f0e24c513c52714594285cccc1c83057ebc7585c7b358a566db4"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-linux-musl-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496034"
+checksum = "sha256:1db4bfedd06685438b076f70eb394e93d69d8c498b9cc72049d7403ea0bfb87c"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-musl-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507785"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-arm64"]
-checksum = "sha256:67b807a99454a4d8e1cf982dce7b3343b2c2fc148f33e403dbfb3f1049b22570"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-darwin-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496045"
+checksum = "sha256:9fccf2cdd7a472c93cb54d99d95d914c86b5f41652054e3cdd0b17c5d28393a6"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-darwin-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507782"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-x64"]
-checksum = "sha256:f7ee52cc4d97c0c3af4b271dff940e2be31fe1e22d4fd125eda6e0c1bb97d5b0"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-darwin-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496040"
+checksum = "sha256:695d3cfd3dc31198362f0be4344dfe64dcc4655fb9ef3316d94368ad7af294d6"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-darwin-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507791"
 
 [tools."github:can1357/oh-my-pi"."platforms.windows-x64"]
-checksum = "sha256:66d1f0b193749782f119a776a2b02b0b71909c36ee12e8f1d310a3c53e66da26"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.1/omp-windows-x64.exe"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/587496032"
+checksum = "sha256:5d99fe5c11ec3ff1792e427c0e61eeb5a6c84670cadb65d023dd2f5eb8705f40"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-windows-x64.exe"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507784"
 
 [[tools."github:cniska/acolyte"]]
 version = "0.27.2"
@@ -664,7 +664,7 @@ url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/568559681
 provenance = "github-attestations"
 
 [[tools."github:kunchenguid/no-mistakes"]]
-version = "1.83.2"
+version = "1.84.0"
 backend = "github:kunchenguid/no-mistakes"
 specifiers = ["latest"]
 
@@ -672,42 +672,42 @@ specifiers = ["latest"]
 matching = "no-mistakes"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64"]
-checksum = "sha256:877b1555ff07b58508080e43b2e2a120f70d14890e7467d06a13da6e42559751"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587853119"
+checksum = "sha256:8d8cefd927b7f921c207e4dd6c575081dc255dc068f0205f74b52e482bf2f7ab"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266131"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64-musl"]
-checksum = "sha256:877b1555ff07b58508080e43b2e2a120f70d14890e7467d06a13da6e42559751"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587853119"
+checksum = "sha256:8d8cefd927b7f921c207e4dd6c575081dc255dc068f0205f74b52e482bf2f7ab"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266131"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64"]
-checksum = "sha256:078c343fe6abf040ddabcc77bcf2affca62b7dda04746f521c537f601d6a3f23"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587853126"
+checksum = "sha256:b0fb8a9df412c5fa1fb92a3584ffa1d4d5b4d6e0d1738efa2f8b88320f8bf1c2"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266016"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64-musl"]
-checksum = "sha256:078c343fe6abf040ddabcc77bcf2affca62b7dda04746f521c537f601d6a3f23"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587853126"
+checksum = "sha256:b0fb8a9df412c5fa1fb92a3584ffa1d4d5b4d6e0d1738efa2f8b88320f8bf1c2"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266016"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-arm64"]
-checksum = "sha256:c231546085c704e6d4299bbc33e1f109b66af7752a1c67d7dce18d017bc586f7"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587852814"
+checksum = "sha256:2e5f838303ab727edccd1a60a4834068024606c68ae7d97fdc0fdeecd7bd4d90"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266167"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-x64"]
-checksum = "sha256:e709eb8b81a138186680c27a71406abc8c37eb17eba8df71910e4b232e9d7de5"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587853505"
+checksum = "sha256:88b1a481924488f55456b3f96070f739b109e19555232e4f8be0a7ebae7c08ac"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266485"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.windows-x64"]
-checksum = "sha256:031ef44ffe194c388df28cc534cf47ab0b3166dceff62779d33dde31da3c9bc8"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.83.2/no-mistakes-v1.83.2-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/587852815"
+checksum = "sha256:c379c9f1129a0d7e0569516cebfa62e7ed43b28ddaa9a3fa69b884cc3d75ea02"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.84.0/no-mistakes-v1.84.0-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/590266132"
 
 [[tools."github:kunchenguid/treehouse"]]
-version = "2.3.0"
+version = "3.1.0"
 backend = "github:kunchenguid/treehouse"
 specifiers = ["latest"]
 
@@ -715,39 +715,39 @@ specifiers = ["latest"]
 matching = "treehouse"
 
 [tools."github:kunchenguid/treehouse"."platforms.linux-arm64"]
-checksum = "sha256:408589ba72b58d5e942071ed863a83fd96566cfd1e514945daa59defde528bbb"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064634"
+checksum = "sha256:385061511fef62a3cb4f377ac48f3dc022a54c7e1198c10477f1306454a379dc"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590022385"
 
 [tools."github:kunchenguid/treehouse"."platforms.linux-arm64-musl"]
-checksum = "sha256:408589ba72b58d5e942071ed863a83fd96566cfd1e514945daa59defde528bbb"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064634"
+checksum = "sha256:385061511fef62a3cb4f377ac48f3dc022a54c7e1198c10477f1306454a379dc"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590022385"
 
 [tools."github:kunchenguid/treehouse"."platforms.linux-x64"]
-checksum = "sha256:94fd2b2c20c35aac1ddc2941317890ad82c9916f5ccecbac4a50cda783eed10f"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064415"
+checksum = "sha256:d783b1fdc1e0d2669c0042634850d795e1d12220e586782d82858e70a1a93c25"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590013862"
 
 [tools."github:kunchenguid/treehouse"."platforms.linux-x64-musl"]
-checksum = "sha256:94fd2b2c20c35aac1ddc2941317890ad82c9916f5ccecbac4a50cda783eed10f"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064415"
+checksum = "sha256:d783b1fdc1e0d2669c0042634850d795e1d12220e586782d82858e70a1a93c25"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590013862"
 
 [tools."github:kunchenguid/treehouse"."platforms.macos-arm64"]
-checksum = "sha256:1cb09bcfa830b4eec5e54beeaa71589adb9c5d828573dda0f5150e2d80cf13d5"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064675"
+checksum = "sha256:e78f52f078d90ffa8589da164fc87306020c5524776273ad040af04127dd91df"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590014783"
 
 [tools."github:kunchenguid/treehouse"."platforms.macos-x64"]
-checksum = "sha256:349afcc13c2beb20d846eb560a11b30e1a5cab8e2dfb22988a36aa7f213b5881"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064734"
+checksum = "sha256:95a6f5cf582f767a8b102a749a53ea397bf28d20df10467c367927f26073e131"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590019981"
 
 [tools."github:kunchenguid/treehouse"."platforms.windows-x64"]
-checksum = "sha256:41fe78fee9bb639b9ccad424e6128b613aad9627913752b197a9ec899c4b2114"
-url = "https://github.com/kunchenguid/treehouse/releases/download/v2.3.0/treehouse-v2.3.0-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/525064765"
+checksum = "sha256:09b0594a88cf7a49ab3cf1d326dc656dced5e031e9df0fbaec6b2b2b149858a5"
+url = "https://github.com/kunchenguid/treehouse/releases/download/v3.1.0/treehouse-v3.1.0-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/treehouse/releases/assets/590012732"
 
 [[tools."github:lucassabreu/clockify-cli"]]
 version = "0.64.4"
@@ -869,7 +869,7 @@ url = "https://github.com/remoteoss/dexter/releases/download/v0.7.2/dexter_Darwi
 url_api = "https://api.github.com/repos/remoteoss/dexter/releases/assets/557731069"
 
 [[tools."github:stripe/stripe-mock"]]
-version = "0.204.0"
+version = "0.205.0"
 backend = "github:stripe/stripe-mock"
 specifiers = ["latest"]
 
@@ -877,39 +877,39 @@ specifiers = ["latest"]
 matching = "stripe-mock"
 
 [tools."github:stripe/stripe-mock"."platforms.linux-arm64"]
-checksum = "sha256:cfc010c2145983193d5f1acb96997024379358286b54a0f91689cd78336fc1e8"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027898"
+checksum = "sha256:cb4f570bdcd61f0107adbb4a033c7e62adacdea44b152a11b437bf8a853f6feb"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871143"
 
 [tools."github:stripe/stripe-mock"."platforms.linux-arm64-musl"]
-checksum = "sha256:cfc010c2145983193d5f1acb96997024379358286b54a0f91689cd78336fc1e8"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027898"
+checksum = "sha256:cb4f570bdcd61f0107adbb4a033c7e62adacdea44b152a11b437bf8a853f6feb"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871143"
 
 [tools."github:stripe/stripe-mock"."platforms.linux-x64"]
-checksum = "sha256:29084a714052801b9301e0008f2eae8582e6aa64bd880fa22b1adcc940669baf"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027893"
+checksum = "sha256:1696dc952c3e0c1940b7cea52be640704daaa88a17a4a0f696b5092db816eb9e"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871142"
 
 [tools."github:stripe/stripe-mock"."platforms.linux-x64-musl"]
-checksum = "sha256:29084a714052801b9301e0008f2eae8582e6aa64bd880fa22b1adcc940669baf"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027893"
+checksum = "sha256:1696dc952c3e0c1940b7cea52be640704daaa88a17a4a0f696b5092db816eb9e"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871142"
 
 [tools."github:stripe/stripe-mock"."platforms.macos-arm64"]
-checksum = "sha256:89dd5d7bbbaa57171f48abdfc1e1101ae4f8d026c5004b36bba91925270bc21b"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027894"
+checksum = "sha256:5dd7648cbc2c7980380d4c98abfbb69449e5a98ee0f8538b4a3686f179aed5d4"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871182"
 
 [tools."github:stripe/stripe-mock"."platforms.macos-x64"]
-checksum = "sha256:ed828d15f97e1d026aa2f9c514dde6dc8701f061fbc6d52af28b7639b6ff4d66"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_darwin_amd64.tar.gz"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027895"
+checksum = "sha256:f820fc1e4cdb68556713a711241498ff92ecaed973f67e10443a6dac13abd605"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_darwin_amd64.tar.gz"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871181"
 
 [tools."github:stripe/stripe-mock"."platforms.windows-x64"]
-checksum = "sha256:bbf559f2316dab6c30541ee222c7e260b01e21fc6931fe27b69c6d9840423452"
-url = "https://github.com/stripe/stripe-mock/releases/download/v0.204.0/stripe-mock_0.204.0_windows_amd64.zip"
-url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/587027918"
+checksum = "sha256:14d1dbe84f9243cd8016a98e6e9c6b46356904648a3c36617b30da3b3ca0eef1"
+url = "https://github.com/stripe/stripe-mock/releases/download/v0.205.0/stripe-mock_0.205.0_windows_amd64.zip"
+url_api = "https://api.github.com/repos/stripe/stripe-mock/releases/assets/588871147"
 
 [[tools.glab]]
 version = "1.119.0"
@@ -1054,7 +1054,7 @@ backend = "npm:gh-axi"
 specifiers = ["latest"]
 
 [[tools."npm:gnhf"]]
-version = "0.1.49"
+version = "0.1.50"
 backend = "npm:gnhf"
 specifiers = ["latest"]
 
