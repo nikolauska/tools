@@ -1,0 +1,12 @@
+onboarding = false
+
+[ui]
+status_indicators = "symbols"
+
+# Plugin manifests can't declare keys, so the Treehouse plugin's shortcut lives
+# here. prefix+t is unbound by default; prefix+shift+t is Herdr's rename_tab.
+[[keys.command]]
+key = "prefix+t"
+type = "plugin_action"
+command = "treehouse.worktree.open"
+description = "Open Treehouse worktree"

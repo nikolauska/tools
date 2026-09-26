@@ -144,3 +144,4 @@ run = [
 "~/.agents/skills/quota-axi" = { source = "dotfiles/.agents/skills/quota-axi", mode = "copy" }
 "~/.agents/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
 "~/.agents/skills/tasks-axi" = { source = "dotfiles/.agents/skills/tasks-axi", mode = "copy" }
+"~/.config/herdr/config.toml" = { source = "dotfiles/.config/herdr/config.toml", mode = "copy" }

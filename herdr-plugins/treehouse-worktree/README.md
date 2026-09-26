@@ -19,11 +19,11 @@ herdr plugin action invoke treehouse.worktree.open
 herdr plugin log list --plugin treehouse.worktree
 ```
 
-The action runs asynchronously. Check the plugin log for the new workspace ID, checkout path, or errors. To invoke it with a shortcut, add an unused key to your Herdr config:
+The action runs asynchronously. Check the plugin log for the new workspace ID, checkout path, or errors. The shortcut `prefix+t` is bound in this repo's Herdr config, `dotfiles/.config/herdr/config.toml`, because plugin manifests can't declare keys:
 
 ```toml
 [[keys.command]]
-key = "prefix+shift+t"
+key = "prefix+t"
 type = "plugin_action"
 command = "treehouse.worktree.open"
 description = "Open Treehouse worktree"

@@ -55,6 +55,15 @@ Local Herdr plugins live in `herdr-plugins/`. When mise installs or upgrades Her
 herdr plugin link ~/.config/mise/herdr-plugins/treehouse-worktree
 ```
 
+Herdr's own config, including plugin keybindings, lives in `dotfiles/.config/herdr/config.toml` and is copied to `~/.config/herdr/config.toml` as a mise dotfile. After changing it here, apply it and reload Herdr:
+
+```bash
+mise dot apply ~/.config/herdr/config.toml
+herdr server reload-config
+```
+
+If you change settings from inside Herdr instead, copy them back into the repo with `mise dot add --changed`.
+
 ## Update
 
 ```bash
