@@ -1,6 +1,6 @@
 ---
 name: no-mistakes
-description: Runs the no-mistakes review-to-PR/CI pipeline for committed changes. Use for explicit /no-mistakes, requests to run this pipeline after implementation, or requests to gate, ship, or safely push changes; not for implementation with ordinary local checks.
+description: Runs the no-mistakes review-to-PR/CI pipeline for committed changes. Use only when the user explicitly requests `no-mistakes` or `/no-mistakes`, including after implementation; not for generic gate, ship, push, or local validation requests.
 ---
 
 # No Mistakes
@@ -9,7 +9,7 @@ Drive the local `no-mistakes axi` pipeline from committed feature-branch work to
 
 ## Safety invariants
 
-- Treat pipeline control and permission to publish as distinct. Run this skill only for explicit `/no-mistakes`, a request for this pipeline after implementation, or a request to gate, ship, or safely push changes. Implementation with ordinary local validation does not invoke a publication-capable pipeline.
+- Treat pipeline control and permission to publish as distinct. Run this skill only when the user explicitly requests `no-mistakes` or `/no-mistakes`. Generic requests to gate, ship, safely push, or validate locally do not invoke a publication-capable pipeline.
 - Never read or expose secrets. Never upload repository content except through the pipeline actions the user authorized.
 - Never reset, stash, merge, rebase, force-push, replace a branch, or discard commits to resolve pipeline custody. Follow the returned `branch_sync.next_action` exactly.
 - While a run is active, never edit its worktree, abort or rerun to bypass a gate, or push directly. The pipeline owns findings, fixes, commits, push, PR, and CI.
