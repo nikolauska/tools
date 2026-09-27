@@ -17,14 +17,17 @@ glab = "latest"
 "conda:uncrustify" = "latest"
 
 # npm CLI tools
+# Own @nikolauska packages skip the release-age and new-package-name guards:
+# they're trusted and usually installed right after publishing.
 "npm:acpx" = "latest"
 "npm:chrome-devtools-axi" = { version = "latest", depends = ["npm:chrome-devtools-mcp"] }
 "npm:chrome-devtools-mcp" = "latest"
-"npm:@nikolauska/cbm-axi" = { version = "latest", minimum_release_age = "0s" }
+"npm:@nikolauska/cbm-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
+"npm:@nikolauska/discourse-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:gh-axi" = "latest"
 "npm:lavish-axi" = "latest"
-"npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s" }
-"npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s" }
+"npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
+"npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@jkeskikangas/skillcheck" = "latest"
 "npm:skills" = "latest"
 
@@ -72,6 +75,7 @@ circleci = "github:CircleCI-Public/circleci-cli"
 codebase-memory-mcp = "github:DeusData/codebase-memory-mcp"
 codebase-memory-mcp-axi = "npm:@nikolauska/cbm-axi"
 collie = "github:AltanS/collie"
+discourse-axi = "npm:@nikolauska/discourse-axi"
 gh-axi = "npm:gh-axi"
 glab-axi = "github:nikolauska/glab-axi"
 herdr = "github:herdrdev/herdr"
@@ -111,6 +115,7 @@ run = [
 [dotfiles]
 "~/.agents/skills/cbm-axi" = { source = "dotfiles/.agents/skills/cbm-axi", mode = "copy" }
 "~/.agents/skills/chrome-devtools-axi" = { source = "dotfiles/.agents/skills/chrome-devtools-axi", mode = "copy" }
+"~/.agents/skills/discourse-axi" = { source = "dotfiles/.agents/skills/discourse-axi", mode = "copy" }
 "~/.agents/skills/gh-axi" = { source = "dotfiles/.agents/skills/gh-axi", mode = "copy" }
 "~/.agents/skills/lavish" = { source = "dotfiles/.agents/skills/lavish", mode = "copy" }
 "~/.agents/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }

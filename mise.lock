@@ -759,17 +759,35 @@ aube = { path = "locks/npm-nikolauska-cbm-axi/0.8.0", digest = "sha256:2b54d7818
 backend = "npm:@nikolauska/cbm-axi"
 specifiers = ["latest"]
 
+[tools."npm:@nikolauska/cbm-axi".options]
+allow_low_downloads = "true"
+
+[[tools."npm:@nikolauska/discourse-axi"]]
+version = "0.1.0"
+aube = { path = "locks/npm-nikolauska-discourse-axi/0.1.0~52f7af8d", digest = "sha256:cdff3568c9b0f01bdd09ccc599385b24a214369f2708c56bfa39bb1686e09488" }
+backend = "npm:@nikolauska/discourse-axi"
+specifiers = ["latest"]
+
+[tools."npm:@nikolauska/discourse-axi".options]
+allow_low_downloads = "true"
+
 [[tools."npm:@nikolauska/linear-axi"]]
 version = "0.5.0"
 aube = { path = "locks/npm-nikolauska-linear-axi/0.5.0", digest = "sha256:70125434dd7b921600294bc3775305577d6850e67149b708db1d3f63ef860cd7" }
 backend = "npm:@nikolauska/linear-axi"
 specifiers = ["latest"]
 
+[tools."npm:@nikolauska/linear-axi".options]
+allow_low_downloads = "true"
+
 [[tools."npm:@nikolauska/sentry-axi"]]
 version = "0.4.0"
 aube = { path = "locks/npm-nikolauska-sentry-axi/0.4.0", digest = "sha256:cb62f210c5f1a2c0bef871fe43d4b787198409dcfa8b3eff74875b60f4fb2a2b" }
 backend = "npm:@nikolauska/sentry-axi"
 specifiers = ["latest"]
+
+[tools."npm:@nikolauska/sentry-axi".options]
+allow_low_downloads = "true"
 
 [[tools."npm:acpx"]]
 version = "0.19.3"
