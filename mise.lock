@@ -206,7 +206,7 @@ url_api = "https://api.github.com/repos/cli/cli/releases/assets/565857681"
 provenance = "github-attestations"
 
 [[tools."github:AltanS/collie"]]
-version = "1.13.1"
+version = "1.13.3"
 backend = "github:AltanS/collie"
 specifiers = ["latest"]
 
@@ -214,29 +214,29 @@ specifiers = ["latest"]
 matching = "collie-"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64"]
-checksum = "sha256:433d81caf9b4bf6cf8214f02a7c0ea9fdb8e5b6b6d8be6e004e033fa76ec7409"
-url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570785"
+checksum = "sha256:10498b70fd9b46e02dda3c126829df64a4ebbcd42ce034a5a96a993f7b31c231"
+url = "https://github.com/AltanS/collie/releases/download/v1.13.3/collie-1.13.3-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/591261032"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64-musl"]
-checksum = "sha256:433d81caf9b4bf6cf8214f02a7c0ea9fdb8e5b6b6d8be6e004e033fa76ec7409"
-url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570785"
+checksum = "sha256:10498b70fd9b46e02dda3c126829df64a4ebbcd42ce034a5a96a993f7b31c231"
+url = "https://github.com/AltanS/collie/releases/download/v1.13.3/collie-1.13.3-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/591261032"
 
 [tools."github:AltanS/collie"."platforms.linux-x64"]
-checksum = "sha256:28c7c7a46c1846ebfa972e157bfdd806100edbe388b31283fa1acf1ca60d707e"
-url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570779"
+checksum = "sha256:67b417336f0f98aeefcbe8ce85b13e028b77982dcb4b780f6449eeeb47baacc9"
+url = "https://github.com/AltanS/collie/releases/download/v1.13.3/collie-1.13.3-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/591261030"
 
 [tools."github:AltanS/collie"."platforms.linux-x64-musl"]
-checksum = "sha256:28c7c7a46c1846ebfa972e157bfdd806100edbe388b31283fa1acf1ca60d707e"
-url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570779"
+checksum = "sha256:67b417336f0f98aeefcbe8ce85b13e028b77982dcb4b780f6449eeeb47baacc9"
+url = "https://github.com/AltanS/collie/releases/download/v1.13.3/collie-1.13.3-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/591261030"
 
 [tools."github:AltanS/collie"."platforms.macos-arm64"]
-checksum = "sha256:6ccaf0e6d49b3cb01a4f673f3f84188908e1cea5000a8e4c904b69fc21e52981"
-url = "https://github.com/AltanS/collie/releases/download/v1.13.1/collie-1.13.1-macos-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/585570783"
+checksum = "sha256:cf272dc08467020fc0d7584d06ef832232f482ef325eedb454f1db64f74fc122"
+url = "https://github.com/AltanS/collie/releases/download/v1.13.3/collie-1.13.3-macos-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/591261027"
 
 [[tools."github:CircleCI-Public/circleci-cli"]]
 version = "1.0.51515"
@@ -426,7 +426,7 @@ url_api = "https://api.github.com/repos/agent-sh/agnix/releases/assets/567512145
 provenance = "github-attestations"
 
 [[tools."github:can1357/oh-my-pi"]]
-version = "18.3.2"
+version = "18.3.4"
 backend = "github:can1357/oh-my-pi"
 specifiers = ["latest"]
 
@@ -434,39 +434,39 @@ specifiers = ["latest"]
 matching_regex = "^omp-"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64"]
-checksum = "sha256:f56f4775abbf269c481c78799691eaa59a7d69644fa7d592c775e2c65f7b13da"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507781"
+checksum = "sha256:bb058d49dde5bb84e6f1b96aa798d7393d3bce1a6927392694e49120ba2c2619"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158584"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-arm64-musl"]
-checksum = "sha256:3637404c77771b6d923986c8d026f8b0f9545e84772df5c9d8f0aaab52c8507d"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-musl-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507794"
+checksum = "sha256:e91c51d75ad1391cf7ad6a6e748c1c23b54b7811295830062cd46ead9f3279e2"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-musl-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158577"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64"]
-checksum = "sha256:8cbbcd4bea7a7b86116a13352f31e3778fd4d93df931036bb1771738b0702534"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507783"
+checksum = "sha256:e8d13ea8da6281f183108bc25ae94c4a1a5159a2072d188ea8c30bbfce4735b8"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158580"
 
 [tools."github:can1357/oh-my-pi"."platforms.linux-x64-musl"]
-checksum = "sha256:1db4bfedd06685438b076f70eb394e93d69d8c498b9cc72049d7403ea0bfb87c"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-musl-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507785"
+checksum = "sha256:5d8523c1028bdeb24e27c8b2343878c11420793c47e9f2a39c8b0dedaea06df8"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-musl-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158576"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-arm64"]
-checksum = "sha256:9fccf2cdd7a472c93cb54d99d95d914c86b5f41652054e3cdd0b17c5d28393a6"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-darwin-arm64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507782"
+checksum = "sha256:10a79c56fc459245eac41d5b4318cd7fce88a1dea294d00593859346ada7aa8a"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-darwin-arm64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158582"
 
 [tools."github:can1357/oh-my-pi"."platforms.macos-x64"]
-checksum = "sha256:695d3cfd3dc31198362f0be4344dfe64dcc4655fb9ef3316d94368ad7af294d6"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-darwin-x64"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507791"
+checksum = "sha256:12e4f01fd9c8939e947d0c5a1d3b7861e98285051112f835d74d5096dbbad535"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-darwin-x64"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158585"
 
 [tools."github:can1357/oh-my-pi"."platforms.windows-x64"]
-checksum = "sha256:5d99fe5c11ec3ff1792e427c0e61eeb5a6c84670cadb65d023dd2f5eb8705f40"
-url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-windows-x64.exe"
-url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/589507784"
+checksum = "sha256:7abb9e215412e7cd457b527365cf5700d8cdd383d162d1ca0d9e7f0610ddbab1"
+url = "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-windows-x64.exe"
+url_api = "https://api.github.com/repos/can1357/oh-my-pi/releases/assets/592158578"
 
 [[tools."github:cniska/acolyte"]]
 version = "0.27.2"
@@ -978,7 +978,10 @@ url = "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.8.0.5274/wi
 [[tools.node]]
 version = "24.21.0"
 backend = "core:node"
-specifiers = ["24"]
+specifiers = [
+    "24",
+    "lts",
+]
 
 [tools.node."platforms.linux-arm64"]
 checksum = "sha256:724282c3b43aec998aa9527380465b45d229e021b58035f5f4f63095eabfe5d5"
@@ -1024,7 +1027,7 @@ backend = "npm:@nikolauska/cbm-axi"
 specifiers = ["latest"]
 
 [[tools."npm:@nikolauska/linear-axi"]]
-version = "0.4.1"
+version = "0.5.0"
 backend = "npm:@nikolauska/linear-axi"
 specifiers = ["latest"]
 
@@ -1059,12 +1062,12 @@ backend = "npm:gnhf"
 specifiers = ["latest"]
 
 [[tools."npm:lavish-axi"]]
-version = "0.1.78"
+version = "0.1.79"
 backend = "npm:lavish-axi"
 specifiers = ["latest"]
 
 [[tools."npm:quota-axi"]]
-version = "0.1.54"
+version = "0.1.55"
 backend = "npm:quota-axi"
 specifiers = ["latest"]
 
