@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@nikolauska/cbm-axi':
+        specifier: 0.8.0
+        version: 0.8.0
+
+packages:
+
+  '@nikolauska/cbm-axi@0.8.0':
+    resolution: {integrity: sha512-2oPjfFvsX6OT1C3o7xHHGl+8PdqshV5Bi2tA8bQsIcd077sjnC6X+HINTFrpc2G0cJi+ff0fZdtQ0qjm4t5yNA==}
+    hasBin: true
+
+  '@toon-format/toon@2.3.1':
+    resolution: {integrity: sha512-sWqEMeAJGMda9qRrfPKrX3C4c33CO9SJuvJzzrcBEn5sbDB+k6pSLkDsfN0rVnLQwR97MV3sDgVbcxQNsq8xVw==}
+
+  axi-sdk-js@0.1.12:
+    resolution: {integrity: sha512-qAt4T8tOWAFfehx26UbOyfnRcK2VJ36fI9rAKFgDwS0+PRuPB2wOSMDKlpaAKffy6LOzofjuxIoVGaU4dB0geA==}
+    engines: {node: '>=20'}
+
+snapshots:
+
+  '@nikolauska/cbm-axi@0.8.0':
+    dependencies:
+      axi-sdk-js: 0.1.12
+
+  '@toon-format/toon@2.3.1': {}
+
+  axi-sdk-js@0.1.12:
+    dependencies:
+      '@toon-format/toon': 2.3.1

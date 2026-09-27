@@ -1,0 +1,7 @@
+{
+  "name": "mise-npm-install",
+  "private": true,
+  "dependencies": {
+    "@nikolauska/cbm-axi": "0.8.0"
+  }
+}

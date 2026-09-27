@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@jkeskikangas/skillcheck':
+        specifier: 0.2.4
+        version: 0.2.4
+
+packages:
+
+  '@jkeskikangas/skillcheck@0.2.4':
+    resolution: {integrity: sha512-qlc/29wYkZSl4Z1BGFppcc8K9jHQgemJBow0xMTloFPAypAkeq9/IEFNx++RUJSX2egfFHmVZwbnAGHmDJRIFQ==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+snapshots:
+
+  '@jkeskikangas/skillcheck@0.2.4': {}
