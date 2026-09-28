@@ -27,6 +27,6 @@ Use `no-mistakes axi sync --check` to freshly verify an offered plan. Never run 
 
 1. Confirm the structured state permits local work.
 2. Commit follow-up changes on top of the synchronized branch so every pipeline fix commit remains present, regardless of its commit subject.
-3. Start a new run with the original complete user intent.
+3. Start a new run with an intent summarizing the branch's changes, including the follow-up.
 
 If synchronization refuses because the worktree is dirty or containment cannot be proven, stop improvising. Follow the explicit recovery choices. Never use a manual reset, stash, merge, rebase, force operation, or branch replacement to manufacture a clean state.

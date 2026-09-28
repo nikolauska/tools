@@ -34,7 +34,7 @@ For `/no-mistakes <task>` or an explicit request to implement and then run this 
 
 1. Inspect repository status. Preserve unrelated work.
 2. Implement the task and commit only its changes on a feature branch. If currently on the default branch, create a feature branch before committing.
-3. Run the pipeline with the original request as `--intent`. Preserve the user's wording, constraints, exclusions, acceptance criteria, and later decisions; add implementation decisions or tradeoffs a diff-only reviewer would not know.
+3. Run the pipeline with a summary of the committed changes as `--intent`; see [Intent](#intent).
 
 ## Preconditions and discovery
 
@@ -55,10 +55,14 @@ See [branch custody](references/branch-custody.md) before any post-pipeline edit
 Every new run requires:
 
 ```sh
-no-mistakes axi run --intent "<the user's complete objective>"
+no-mistakes axi run --intent "<simple summary of the changes made>"
 ```
 
-Intent describes what the user set out to accomplish, not the diff. Include deliberate behavior, constraints, rejected approaches, acceptance criteria, and surprising choices. A few sentences or a short paragraph is normal. Reuse the same original intent after fixes or recovery.
+Intent is a short, plain-language summary of what the branch changes, usually one or two sentences. Describe the changes themselves, not the user's full request, a file-by-file list, or the steps taken to implement them.
+
+Example: `--intent "Add retry with backoff to the webhook sender so transient 5xx responses no longer drop events."`
+
+Reuse the same intent after pipeline fixes or recovery. If follow-up commits change what the branch does, update the summary to cover them.
 
 ## Drive the run
 

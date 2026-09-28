@@ -21,7 +21,7 @@ After a terminal `failed` or `cancelled` outcome:
 2. Return branch custody using the exact offered command before editing or committing.
 3. Fix the failing test, lint error, or unresolved finding on the same feature branch.
 4. Commit on top of all pipeline commits.
-5. Start a fresh run with the original complete intent.
+5. Start a fresh run with an intent summarizing the branch's changes, including the follow-up.
 
 Do not leave a failed outcome without retrying or naming the concrete blocker.
 
