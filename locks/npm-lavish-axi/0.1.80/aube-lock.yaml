@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       lavish-axi:
-        specifier: 0.1.79
-        version: 0.1.79
+        specifier: 0.1.80
+        version: 0.1.80
 
 packages:
 
@@ -76,8 +76,8 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  daisyui@5.7.46:
-    resolution: {integrity: sha512-z/tfVXLpLRe1ojGeokzxauHA9Ij5CGfk+83EdatQbFSVr02h5mUcp4nkgQJOw68wH1wAAPu/SY+MWbDdJG2R4w==}
+  daisyui@5.7.47:
+    resolution: {integrity: sha512-NOl4vPifelRqB3CMzoU751zc44KCDD9HdHMTTqQ30uiYVpIyK7+s94/ySDWgYqjdl1tQCaCrgGBx4KCizm+a3Q==}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -212,8 +212,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  lavish-axi@0.1.79:
-    resolution: {integrity: sha512-FG/16oaLWO3PakCfTZ+6mecmLdDIaTKe+NnuGsul3gE2y+MAFqlTfxO+7p7OVg/LUeFpe7rpMTHNchzRi4Nx2g==}
+  lavish-axi@0.1.80:
+    resolution: {integrity: sha512-tXwJKK+WdSqERnIzR29yQ49K4+XORt1O5WAvfvKBwIXQHhxY8b+YJpBcmEwXVDy3w6IRoUCy+Aqae/eZld2dPA==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -448,7 +448,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  daisyui@5.7.46: {}
+  daisyui@5.7.47: {}
 
   debug@4.4.3:
     dependencies:
@@ -595,13 +595,13 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  lavish-axi@0.1.79:
+  lavish-axi@0.1.80:
     dependencies:
       '@tailwindcss/browser': 4.2.4
       axi-sdk-js: 0.1.12
       chokidar: 4.0.3
       cross-spawn: 7.0.6
-      daisyui: 5.7.46
+      daisyui: 5.7.47
       express: 5.2.1
       open: 10.2.0
       parse5: 8.0.1
