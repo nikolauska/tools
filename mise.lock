@@ -206,7 +206,7 @@ url_api = "https://api.github.com/repos/cli/cli/releases/assets/599854760"
 provenance = "github-attestations"
 
 [[tools."github:AltanS/collie"]]
-version = "1.16.1"
+version = "1.16.2"
 backend = "github:AltanS/collie"
 specifiers = ["latest"]
 
@@ -214,34 +214,34 @@ specifiers = ["latest"]
 matching = "collie-"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64"]
-checksum = "sha256:178c4137f2936677b0fec38d2c6575aad4807ba039731f9627d1dbb3a7c048d9"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219234"
+checksum = "sha256:79de56894eb1ad5f45bbe5e9a4d82c8399fbe1b7fd40051e3b8331ac12844c24"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813383"
 
 [tools."github:AltanS/collie"."platforms.linux-arm64-musl"]
-checksum = "sha256:178c4137f2936677b0fec38d2c6575aad4807ba039731f9627d1dbb3a7c048d9"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219234"
+checksum = "sha256:79de56894eb1ad5f45bbe5e9a4d82c8399fbe1b7fd40051e3b8331ac12844c24"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813383"
 
 [tools."github:AltanS/collie"."platforms.linux-x64"]
-checksum = "sha256:47d717a4c66f5ac3db1752063e1b1868cf090634940e684310dda5a9f3a06b11"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219242"
+checksum = "sha256:53a43c075977f91f145e7f086b1896ea13b88b7ce81ab898360a4c8a55aa3b12"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813389"
 
 [tools."github:AltanS/collie"."platforms.linux-x64-musl"]
-checksum = "sha256:47d717a4c66f5ac3db1752063e1b1868cf090634940e684310dda5a9f3a06b11"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-linux-x64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219242"
+checksum = "sha256:53a43c075977f91f145e7f086b1896ea13b88b7ce81ab898360a4c8a55aa3b12"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-linux-x64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813389"
 
 [tools."github:AltanS/collie"."platforms.macos-arm64"]
-checksum = "sha256:d6c3f3a38c9b609ec977fc40699fcc1cc1f06495ee97c393e6580b3c02abc427"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-macos-arm64.tar.gz"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219238"
+checksum = "sha256:b90347a920d90e3e912c6cb71a2f4bd0daa9ba0fb55c65165cf8280f0e3a284b"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-macos-arm64.tar.gz"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813387"
 
 [tools."github:AltanS/collie"."platforms.windows-x64"]
-checksum = "sha256:838ffcd4d8de787c0089b410fcea05af3566715199993b5e19d1cac9974dfa7d"
-url = "https://github.com/AltanS/collie/releases/download/v1.16.1/collie-1.16.1-windows-x64.zip"
-url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/608219270"
+checksum = "sha256:514a708a09c0c53bf9ec9bc746a2dce51fe335379b58f1d9b3713320fb14e4a9"
+url = "https://github.com/AltanS/collie/releases/download/v1.16.2/collie-1.16.2-windows-x64.zip"
+url_api = "https://api.github.com/repos/AltanS/collie/releases/assets/609813402"
 
 [[tools."github:CircleCI-Public/circleci-cli"]]
 version = "1.0.51932"
@@ -524,7 +524,7 @@ url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/599036387
 provenance = "github-attestations"
 
 [[tools."github:kunchenguid/no-mistakes"]]
-version = "1.87.1"
+version = "1.88.0"
 backend = "github:kunchenguid/no-mistakes"
 specifiers = ["latest"]
 
@@ -532,39 +532,39 @@ specifiers = ["latest"]
 matching = "no-mistakes"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64"]
-checksum = "sha256:8f358475c7ab2c12afd600f9c48f0a5969e807662271977fc77b791d38ff2a4d"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892268"
+checksum = "sha256:f816a6dd4b0b67b9e2a22add3adc5ac0ac4e77431d1997059e19eff4e162d969"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655112"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-arm64-musl"]
-checksum = "sha256:8f358475c7ab2c12afd600f9c48f0a5969e807662271977fc77b791d38ff2a4d"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-linux-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892268"
+checksum = "sha256:f816a6dd4b0b67b9e2a22add3adc5ac0ac4e77431d1997059e19eff4e162d969"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655112"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64"]
-checksum = "sha256:6ec01891085873a66f9642c9b990e8195f0c25c631b08a9486b494bec9e60972"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892121"
+checksum = "sha256:63fd3aaed4fdabc0d9eaafef5f0720a9711f276f22a02d3d0dde0aa0e309a5ef"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655152"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.linux-x64-musl"]
-checksum = "sha256:6ec01891085873a66f9642c9b990e8195f0c25c631b08a9486b494bec9e60972"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892121"
+checksum = "sha256:63fd3aaed4fdabc0d9eaafef5f0720a9711f276f22a02d3d0dde0aa0e309a5ef"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655152"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-arm64"]
-checksum = "sha256:2f4f76a48ad63e8285c61fdc6209f22c70784b4681e6020869a772da3c2c0e9a"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-darwin-arm64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892499"
+checksum = "sha256:d8525e8dfc9b0bf27bdb3fe432d271b3ede7754eba34d3f110b5a33add93f865"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-darwin-arm64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655473"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.macos-x64"]
-checksum = "sha256:27f2abaf484d94f932188c7ed30f3b122bd739e5af753e1c71860d24acf81580"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-darwin-amd64.tar.gz"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892855"
+checksum = "sha256:fc6294fb94ca28ee1c6ba09d0a12191535c6976a1f5b1cfc4a29846648b9e204"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-darwin-amd64.tar.gz"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612656355"
 
 [tools."github:kunchenguid/no-mistakes"."platforms.windows-x64"]
-checksum = "sha256:54dcbe580d479338802af9648aef1d18cdb252f592231aafbacd02096b803ea9"
-url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.87.1/no-mistakes-v1.87.1-windows-amd64.zip"
-url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/609892300"
+checksum = "sha256:bb9fe1eed6c142a893ed05d4df9409c537739bdad81e18bb647dee04b7fcb48b"
+url = "https://github.com/kunchenguid/no-mistakes/releases/download/v1.88.0/no-mistakes-v1.88.0-windows-amd64.zip"
+url_api = "https://api.github.com/repos/kunchenguid/no-mistakes/releases/assets/612655038"
 
 [[tools."github:kunchenguid/treehouse"]]
 version = "3.1.2"
@@ -796,11 +796,13 @@ allow_low_downloads = "true"
 
 [[tools."npm:acpx"]]
 version = "0.19.4"
+aube = { path = "locks/npm-acpx/0.19.4", digest = "sha256:2a927f544e294d4bcce62bcd03efb896de5d0cf9c58a347b197cbc930f4e9313" }
 backend = "npm:acpx"
 specifiers = ["latest"]
 
 [[tools."npm:chrome-devtools-axi"]]
 version = "0.1.38"
+aube = { path = "locks/npm-chrome-devtools-axi/0.1.38", digest = "sha256:e992ceea27dd8a89a1013bbf2ffd74d96dc935f29e85e00c5539d1731860bd3f" }
 backend = "npm:chrome-devtools-axi"
 specifiers = ["latest"]
 
@@ -817,7 +819,7 @@ backend = "npm:gh-axi"
 specifiers = ["latest"]
 
 [[tools."npm:lavish-axi"]]
-version = "0.1.81"
+version = "0.1.82"
 backend = "npm:lavish-axi"
 specifiers = ["latest"]
 
