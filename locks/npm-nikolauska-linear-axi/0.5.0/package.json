@@ -1,7 +1,0 @@
-{
-  "name": "mise-npm-install",
-  "private": true,
-  "dependencies": {
-    "@nikolauska/linear-axi": "0.5.0"
-  }
-}

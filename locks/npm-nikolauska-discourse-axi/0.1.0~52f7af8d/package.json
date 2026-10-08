@@ -1,7 +1,0 @@
-{
-  "name": "mise-npm-install",
-  "private": true,
-  "dependencies": {
-    "@nikolauska/discourse-axi": "0.1.0"
-  }
-}

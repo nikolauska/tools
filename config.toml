@@ -1,5 +1,5 @@
 [settings]
-lockfile = true
+lockfile = false
 minimum_release_age = "12h"
 
 [settings.github]
@@ -107,10 +107,7 @@ run = ["mise current", "mise outdated"]
 
 [tasks.bootstrap]
 description = "Install tools and apply services"
-run = [
-  "mise install --locked",
-  "mise bootstrap services apply --yes",
-]
+run = ["mise install", "mise bootstrap services apply --yes"]
 
 [dotfiles]
 "~/.agents/skills/cbm-axi" = { source = "dotfiles/.agents/skills/cbm-axi", mode = "copy" }
