@@ -34,6 +34,11 @@ glab = "latest"
 "npm:lavish-axi" = "latest"
 "npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
+# Setup's skill-only mode keeps ~/.agents/skills/reverse-engineer-anything in
+# step with the installed tool catalog; a vendored copy would drift on upgrade
+# and fail `rea doctor`. Clients are left out because omp is not a supported
+# setup target and other clients' registrations pin a versioned install path.
+"npm:rea-agents" = { version = "latest", postinstall = "rea setup --yes --skill --filter-output status" }
 "npm:@jkeskikangas/skillcheck" = "latest"
 "npm:skills" = "latest"
 
@@ -92,6 +97,7 @@ no-mistakes = "github:kunchenguid/no-mistakes"
 omp = "github:can1357/oh-my-pi"
 oxipng = "github:oxipng/oxipng"
 pup = "github:DataDog/pup"
+rea = "npm:rea-agents"
 sentry-axi = "npm:@nikolauska/sentry-axi"
 skillcheck = "npm:@jkeskikangas/skillcheck"
 skills = "npm:skills"
@@ -127,3 +133,6 @@ run = ["mise install", "mise bootstrap services apply --yes"]
 "~/.agents/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
 "~/.agents/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
 "~/.config/herdr/config.toml" = { source = "dotfiles/.config/herdr/config.toml", mode = "copy" }
+# Merge only the rea server so omp keeps ownership of the rest of mcp.json
+# (e.g. disabledServers it writes from /mcp).
+"~/.omp/agent/mcp.json/rea" = { source = "dotfiles/.omp/agent/mcp.json", merge = true }
