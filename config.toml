@@ -5,6 +5,12 @@ minimum_release_age = "12h"
 [settings.github]
 credential_command = "gh auth token"
 
+# glab's OAuth tokens expire after ~2h and only get refreshed when glab itself
+# calls the API. mise reads the token file directly, so poke the API first to
+# force a refresh, then hand mise the fresh token.
+[settings.gitlab]
+credential_command = 'glab api --hostname "$MISE_CREDENTIAL_HOST" user >/dev/null 2>&1; glab config get token --host "$MISE_CREDENTIAL_HOST"'
+
 [tools]
 # Node 24 satisfies the highest runtime requirement of the npm tools below.
 node = "lts"
