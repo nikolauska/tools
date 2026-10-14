@@ -34,11 +34,11 @@ glab = "latest"
 "npm:lavish-axi" = "latest"
 "npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
-# Setup's skill-only mode keeps ~/.agents/skills/reverse-engineer-anything in
-# step with the installed tool catalog; a vendored copy would drift on upgrade
+# Setup's skill-only mode keeps the reverse-engineer-anything skill (in
+# ~/.agents/skills and ~/.claude/skills) in step with the installed tool catalog; a vendored copy would drift on upgrade
 # and fail `rea doctor`. Clients are left out because omp is not a supported
 # setup target and other clients' registrations pin a versioned install path.
-"npm:rea-agents" = { version = "latest", postinstall = "rea setup --yes --skill --filter-output status" }
+"npm:rea-agents" = { version = "latest", postinstall = "rea setup --yes --skill --skill-client claude_code --filter-output status" }
 "npm:@jkeskikangas/skillcheck" = "latest"
 "npm:skills" = "latest"
 
@@ -56,6 +56,9 @@ glab = "latest"
 "github:oxipng/oxipng" = { version = "latest", matching = "oxipng-" }
 "github:DataDog/pup" = { version = "latest", matching = "pup_" }
 "github:kunchenguid/treehouse" = { version = "latest", matching = "treehouse", minimum_release_age = "0s" }
+
+# Claude code if omp is no longer allowed...
+claude-code = { version = "latest", minimum_release_age = "0s" }
 
 # SonarQube CLI publishes platform binaries outside GitHub releases.
 [tools."http:sonarqube-cli"]
@@ -132,6 +135,14 @@ run = ["mise install", "mise bootstrap services apply --yes"]
 "~/.agents/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }
 "~/.agents/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
 "~/.agents/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
+"~/.claude/skills/cbm-axi" = { source = "dotfiles/.agents/skills/cbm-axi", mode = "copy" }
+"~/.claude/skills/chrome-devtools-axi" = { source = "dotfiles/.agents/skills/chrome-devtools-axi", mode = "copy" }
+"~/.claude/skills/discourse-axi" = { source = "dotfiles/.agents/skills/discourse-axi", mode = "copy" }
+"~/.claude/skills/gh-axi" = { source = "dotfiles/.agents/skills/gh-axi", mode = "copy" }
+"~/.claude/skills/lavish" = { source = "dotfiles/.agents/skills/lavish", mode = "copy" }
+"~/.claude/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }
+"~/.claude/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
+"~/.claude/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
 "~/.config/herdr/config.toml" = { source = "dotfiles/.config/herdr/config.toml", mode = "copy" }
 # Merge only the rea server so omp keeps ownership of the rest of mcp.json
 # (e.g. disabledServers it writes from /mcp).
