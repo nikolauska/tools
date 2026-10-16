@@ -59,6 +59,7 @@ glab = "latest"
 
 # Claude code if omp is no longer allowed...
 claude-code = { version = "latest", minimum_release_age = "0s" }
+codex = { version = "latest", minimum_release_age = "0s" }
 
 # SonarQube CLI publishes platform binaries outside GitHub releases.
 [tools."http:sonarqube-cli"]
