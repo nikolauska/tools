@@ -45,7 +45,10 @@ glab = "latest"
 # GitHub release binaries
 "github:agent-sh/agnix" = { version = "latest", matching = "agnix" }
 "github:CircleCI-Public/circleci-cli" = { version = "latest", matching = "circleci-cli_", bin = "circleci" }
-"github:DeusData/codebase-memory-mcp" = { version = "latest", matching = "codebase-memory-mcp", postinstall = "mise bootstrap services remove codebase-memory-mcp && mise bootstrap services apply --yes" }
+# Newer codebase-memory-mcp releases only work on Linux from the -portable
+# build; macOS and Windows ship just one build, so the regex lets those through
+# unchanged while skipping the .mcpb bundles and the -ui variants.
+"github:DeusData/codebase-memory-mcp" = { version = "latest", matching_regex = "^codebase-memory-mcp-(linux-[^-]+-portable|darwin-[^-]+|windows-[^-]+)\\.(tar\\.gz|zip)$", minimum_release_age = "0s", postinstall = "mise bootstrap services remove codebase-memory-mcp && mise bootstrap services apply --yes" }
 "github:AltanS/collie" = { version = "latest", matching = "collie-", os = ["linux", "macos"] }
 "github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi", minimum_release_age = "0s" }
 # Link local plugins kept in this repo; linking is idempotent and survives
