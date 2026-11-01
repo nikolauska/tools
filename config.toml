@@ -31,6 +31,10 @@ glab = "latest"
 "npm:@nikolauska/cbm-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@nikolauska/discourse-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:gh-axi" = "latest"
+# setup is idempotent and writes a bare `hours-axi hook` command that resolves
+# through the mise shims, so rerunning it on every upgrade is safe and the
+# hooks never point at a stale versioned install.
+"npm:@nikolauska/hour-tracker-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true, postinstall = "hours-axi setup claude" }
 "npm:lavish-axi" = "latest"
 "npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
@@ -98,6 +102,7 @@ discourse-axi = "npm:@nikolauska/discourse-axi"
 gh-axi = "npm:gh-axi"
 glab-axi = "github:nikolauska/glab-axi"
 herdr = "github:herdrdev/herdr"
+hour-tracker-axi = "npm:@nikolauska/hour-tracker-axi"
 lavish-axi = "npm:lavish-axi"
 linear-axi = "npm:@nikolauska/linear-axi"
 no-mistakes = "github:kunchenguid/no-mistakes"
@@ -135,6 +140,7 @@ run = ["mise install", "mise bootstrap services apply --yes"]
 "~/.agents/skills/chrome-devtools-axi" = { source = "dotfiles/.agents/skills/chrome-devtools-axi", mode = "copy" }
 "~/.agents/skills/discourse-axi" = { source = "dotfiles/.agents/skills/discourse-axi", mode = "copy" }
 "~/.agents/skills/gh-axi" = { source = "dotfiles/.agents/skills/gh-axi", mode = "copy" }
+"~/.agents/skills/hours-axi" = { source = "dotfiles/.agents/skills/hours-axi", mode = "copy" }
 "~/.agents/skills/lavish" = { source = "dotfiles/.agents/skills/lavish", mode = "copy" }
 "~/.agents/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }
 "~/.agents/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
@@ -143,6 +149,7 @@ run = ["mise install", "mise bootstrap services apply --yes"]
 "~/.claude/skills/chrome-devtools-axi" = { source = "dotfiles/.agents/skills/chrome-devtools-axi", mode = "copy" }
 "~/.claude/skills/discourse-axi" = { source = "dotfiles/.agents/skills/discourse-axi", mode = "copy" }
 "~/.claude/skills/gh-axi" = { source = "dotfiles/.agents/skills/gh-axi", mode = "copy" }
+"~/.claude/skills/hours-axi" = { source = "dotfiles/.agents/skills/hours-axi", mode = "copy" }
 "~/.claude/skills/lavish" = { source = "dotfiles/.agents/skills/lavish", mode = "copy" }
 "~/.claude/skills/linear-axi" = { source = "dotfiles/.agents/skills/linear-axi", mode = "copy" }
 "~/.claude/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
