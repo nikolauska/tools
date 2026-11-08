@@ -38,11 +38,6 @@ glab = "latest"
 "npm:lavish-axi" = "latest"
 "npm:@nikolauska/linear-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
 "npm:@nikolauska/sentry-axi" = { version = "latest", minimum_release_age = "0s", allow_low_downloads = true }
-# Setup's skill-only mode keeps the reverse-engineer-anything skill (in
-# ~/.agents/skills and ~/.claude/skills) in step with the installed tool catalog; a vendored copy would drift on upgrade
-# and fail `rea doctor`. Clients are left out because omp is not a supported
-# setup target and other clients' registrations pin a versioned install path.
-"npm:rea-agents" = { version = "latest", postinstall = "rea setup --yes --skill --skill-client claude_code --filter-output status" }
 "npm:@jkeskikangas/skillcheck" = "latest"
 "npm:skills" = "latest"
 
@@ -53,18 +48,16 @@ glab = "latest"
 # build; macOS and Windows ship just one build, so the regex lets those through
 # unchanged while skipping the .mcpb bundles and the -ui variants.
 "github:DeusData/codebase-memory-mcp" = { version = "latest", matching_regex = "^codebase-memory-mcp-(linux-[^-]+-portable|darwin-[^-]+|windows-[^-]+)\\.(tar\\.gz|zip)$", minimum_release_age = "0s", postinstall = "mise bootstrap services remove codebase-memory-mcp && mise bootstrap services apply --yes" }
-"github:AltanS/collie" = { version = "latest", matching = "collie-", os = ["linux", "macos"] }
 "github:nikolauska/glab-axi" = { version = "latest", matching = "glab-axi", bin = "glab-axi", minimum_release_age = "0s" }
 # Link local plugins kept in this repo; linking is idempotent and survives
 # herdr upgrades, so it only needs to run when herdr gets (re)installed.
 "github:herdrdev/herdr" = { version = "latest", matching = "herdr-", bin = "herdr", postinstall = "herdr plugin link {{xdg_config_home}}/mise/herdr-plugins/treehouse-worktree" }
 "github:kunchenguid/no-mistakes" = { version = "latest", prerelease = true, matching = "no-mistakes", minimum_release_age = "0s" }
-"github:can1357/oh-my-pi" = { version = "latest", matching_regex = "^omp-", bin = "omp", minimum_release_age = "0s" }
 "github:oxipng/oxipng" = { version = "latest", matching = "oxipng-" }
 "github:DataDog/pup" = { version = "latest", matching = "pup_" }
 "github:kunchenguid/treehouse" = { version = "latest", matching = "treehouse", minimum_release_age = "0s" }
 
-# Claude code if omp is no longer allowed...
+# Coding agent CLIs.
 claude-code = { version = "latest", minimum_release_age = "0s" }
 codex = { version = "latest", minimum_release_age = "0s" }
 
@@ -97,7 +90,6 @@ chrome-devtools-mcp = "npm:chrome-devtools-mcp"
 circleci = "github:CircleCI-Public/circleci-cli"
 codebase-memory-mcp = "github:DeusData/codebase-memory-mcp"
 codebase-memory-mcp-axi = "npm:@nikolauska/cbm-axi"
-collie = "github:AltanS/collie"
 discourse-axi = "npm:@nikolauska/discourse-axi"
 gh-axi = "npm:gh-axi"
 glab-axi = "github:nikolauska/glab-axi"
@@ -106,10 +98,8 @@ hour-tracker-axi = "npm:@nikolauska/hour-tracker-axi"
 lavish-axi = "npm:lavish-axi"
 linear-axi = "npm:@nikolauska/linear-axi"
 no-mistakes = "github:kunchenguid/no-mistakes"
-omp = "github:can1357/oh-my-pi"
 oxipng = "github:oxipng/oxipng"
 pup = "github:DataDog/pup"
-rea = "npm:rea-agents"
 sentry-axi = "npm:@nikolauska/sentry-axi"
 skillcheck = "npm:@jkeskikangas/skillcheck"
 skills = "npm:skills"
@@ -155,6 +145,3 @@ run = ["mise install", "mise bootstrap services apply --yes"]
 "~/.claude/skills/no-mistakes" = { source = "dotfiles/.agents/skills/no-mistakes", mode = "copy" }
 "~/.claude/skills/sentry-axi" = { source = "dotfiles/.agents/skills/sentry-axi", mode = "copy" }
 "~/.config/herdr/config.toml" = { source = "dotfiles/.config/herdr/config.toml", mode = "copy" }
-# Merge only the rea server so omp keeps ownership of the rest of mcp.json
-# (e.g. disabledServers it writes from /mcp).
-"~/.omp/agent/mcp.json/rea" = { source = "dotfiles/.omp/agent/mcp.json", merge = true }
